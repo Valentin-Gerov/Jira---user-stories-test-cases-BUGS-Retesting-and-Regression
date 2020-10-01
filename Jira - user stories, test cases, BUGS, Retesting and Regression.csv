@@ -1,0 +1,964 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Affects versions,Affects versions,Fix versions,Components,Components,Votes,Labels,Labels,Description,Environment,Watchers,Watchers,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Cloners),Outward issue link (Duplicate),Outward issue link (Duplicate),Outward issue link (Duplicate),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Tests),Outward issue link (Tests),Outward issue link (Tests),Attachment,Attachment,Custom field (Development),Custom field (Epic Color),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Input Data),Custom field (Issue color),Custom field (Prerequisites),Custom field (Rank),Custom field (Request Type),Satisfaction rating,Custom field (Severity),Sprint,Custom field (Start date),Custom field (Steps),Custom field (Story Points),Custom field (Story point estimate),Custom field (Target end),Custom field (Target start),Custom field (Test Execution Status),Comment,Status Category
+Unable to use already registered username or password,SK02EX-695,13133,Test,In Progress,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,28/Sep/20 4:57 PM,01/Oct/20 9:37 PM,01/Oct/20 9:37 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,SK02EX-1020,,,,,,,,,,,,,SK02EX-311,SK02EX-309,SK02EX-953,,,{},,SK02EX-123,,,"Registered user
+Username : PartyClub
+email: partyclub@gmail.com",,,0|i00ihj:,,,,Party Club Sprint 1,,"1.Open registration page
+2. Fill the username field with registered username ""PartyClub""
+Expected result :Error message ""Username is taken. It cannot be used for another registration.""  
+3.Fill the email field with ""partyclub@gmail.com""
+Expected result : Error message : ""The email is taken.It cannot be used for another registration.""",,,,,,,In Progress
+Opening of the available posts,SK01EX-126,10264,Test,In Progress,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,10/Jun/20 8:21 PM,29/Jun/20 5:13 PM,01/Oct/20 11:43 PM,,,,,Homepage,,0,Team2,,Confirmation that the available posts can be opened and are clickable,,student2,student3,,,,,,,,,,,,,SK01EX-229,,,SK01EX-1041,SK01EX-1129,SK01EX-1208,SK01EX-1268,SK01EX-1317,SK01EX-1685,SK01EX-1834,SK01EX-1865,SK01EX-1919,,,,,SK01EX-119,,,,,{},,SK01EX-21,,,"Username: XXX
+Password: YYY",,the user must be logged in,0|i001aj:,,,,,,"From your homepage, choose one  available post and click on it
+
+Expected result:
+The post must be clickable
+The post must open to view",,,,,,22/Jun/20 4:43 PM;student3;Duplicates with 229,In Progress
+3.2 Registration,SK01EX-27,10165,Epic,In Progress,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,08/Jun/20 8:43 PM,28/Jun/20 11:48 PM,01/Oct/20 11:43 PM,,,,,Registration,,0,Team2,,In order to use the full functionality and has the best experience with the product the user should be registered and logged in. The platform provide registration form which is used to create user to use the platform.,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-14,,3.2 Epic Registration,To Do,,,,0|i000oz:,,,,,,,,,,,,,In Progress
+"As a user i want to have a ""New posts menu"" in the main menu, so i can make a new posts from there ",SK01EX-93,10231,Story,In Review,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,09/Jun/20 9:58 PM,28/Jun/20 8:49 PM,01/Oct/20 11:43 PM,,,,,Posts,,0,Team2,,"Acceptance criteria:
+
+* New posts menu in the main menu must be recognizable 
+* New posts menu should be clickable 
+* New posts menu should opened, after click on it  ",,student2,,,,,,,,,,,,,,,,,SK01EX-774,SK01EX-2216,,,,,,,,,,,,,,,,,{},,SK01EX-52,,,,,,0|i00137:,,,,,,,,,,,,,In Progress
+"As a user I want to have password policy, so that I could have more security for my account.",SK01EX-47,10185,Story,In Review,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,08/Jun/20 9:29 PM,28/Jun/20 8:40 PM,01/Oct/20 11:43 PM,,,,,Registration,,0,Team2,,"Acceptance criteria: 
+
+- Each password should contain some rules
+- At least 6 symbols
+- Including one big letter
+- Including 1 digit",,student2,,,,,,,,,,SK01EX-449,SK01EX-393,,,,,,SK01EX-455,SK01EX-744,SK01EX-745,SK01EX-746,SK01EX-749,SK01EX-949,SK01EX-1331,SK01EX-1453,SK01EX-1799,SK01EX-1810,SK01EX-2200,SK01EX-2201,SK01EX-2211,,,,,,{},,SK01EX-27,,,,,,0|i000tf:,,,,,,,,,,,,,In Progress
+"As a user, I want a specific information about me to be visible to other users, written in, so that I would be easy to find in the network.",SK01EX-49,10187,Story,In Review,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,08/Jun/20 9:29 PM,28/Jun/20 1:08 AM,01/Oct/20 11:43 PM,,,,,Registration,,0,Team2,,"Acceptance criteria:
+
+* The public info field must contain free text info about the user. 
+* This field must be visible to other users.",,student2,,,,,,,,,,,,,,,,,SK01EX-740,SK01EX-2199,,,,,,,,,,,,,,,,,{},,SK01EX-27,,,,,,0|i000tv:,,,,,,,,,,,,,In Progress
+"As a user, i want to have a ""New posts form"" with following attributes, so i can use it in a process of making my new posts.",SK01EX-95,10233,Story,In Review,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,09/Jun/20 10:12 PM,28/Jun/20 12:17 AM,01/Oct/20 11:43 PM,,,,,New post,Posts,0,Team2,,"Acceptance criteria:
+
+* uploading picture field
+* post caption field
+* post status switch – private or public
+* create post button
+* X button to close the form",,student2,,,,,,,,,,,,,,,,,SK01EX-656,SK01EX-662,SK01EX-676,SK01EX-679,SK01EX-680,SK01EX-691,SK01EX-1684,SK01EX-2190,,,,,,,,,,,{},,SK01EX-52,,,,,,0|i0013n:,,,,,,,,,,,,"10/Jun/20 1:23 PM;student2;Трябва да попитаме Хю, колко символа може да има като нов пост (Дали има ограничения или не) ?",In Progress
+"As a user, I want to have a validation a unique username with an error message: ""Тhe username is already taken."" so that I could not register with the same username",SK01EX-35,10173,Story,In Review,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,08/Jun/20 8:57 PM,27/Jun/20 10:03 AM,01/Oct/20 11:43 PM,,,,,Registration,,0,Team2,,"Acceptance criteria:
+
+* The username field has validation if the filled username is already taken.
+*  If the username is taken it cannot be used for another registration. 
+* It should show a informaton screen (alert) that this user name is already taken.",,student2,,,,,,,,,,SK01EX-193,,,,,,,SK01EX-350,SK01EX-359,SK01EX-1547,SK01EX-1842,SK01EX-1873,SK01EX-2112,SK01EX-2113,SK01EX-2114,SK01EX-2115,,,,,,,,,,{},,SK01EX-27,,,,,,0|i000qr:,,,,,,,,,,,,10/Jun/20 1:35 PM;student2;Трябва да попитаме за колко и какви символи са позволени и забранени. ,In Progress
+First time login shown list of all available users in the platform,SK01EX-133,10271,Test,In Progress,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,10/Jun/20 8:57 PM,25/Jun/20 3:39 PM,01/Oct/20 11:43 PM,,,,,Homepage,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,SK01EX-1121,SK01EX-1123,SK01EX-1170,SK01EX-1171,SK01EX-1459,SK01EX-1858,SK01EX-1876,SK01EX-1912,SK01EX-1916,,,,,,,,,,{},,,,,"Username: XXX
+Password: XXX",,Successful login,0|i001c3:,,,,,,"Steps:
+1.Go to Homepage
+Expected results:
+1.The list of all available users in the platform is shown successfully",,,,,,,In Progress
+Successfully access the other user profile page using search field or clicking on the username from a public post.,SK01EX-135,10273,Test,In Progress,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,10/Jun/20 9:06 PM,25/Jun/20 3:13 PM,01/Oct/20 11:43 PM,,,,,Homepage,,0,Team2,,This functionality is available only for registered users ,,student2,student5,,,,,,,,,,,,,,,,SK01EX-1059,SK01EX-1119,SK01EX-1168,SK01EX-1295,SK01EX-1855,SK01EX-1857,SK01EX-1880,SK01EX-1911,SK01EX-2077,,,,,SK01EX-62,,,,,{},,,,,,,Successful login in to the IStillo with valid credentials ,0|i001cj:,,,,,,"1. View Homepage and see all public posts from all available users in the platform
+2. Click on the selected username from a public post.
+ExR: The user is redirected to the profile page of the selected user
+3. Click on ""Home"" button
+The user is redirected to homepage and see all public posts from all available users in the platform
+4. Click on ""Search"" field and press space
+ExR:  Appears the list of all available users in the platform
+5. Click on the username of selected user
+ExR: The user is redirected to the profile page of the selected user",,,,,,"21/Jun/20 8:47 PM;student5;Заглавието е *_Redirected to the profile of the user, after clicking on their profile picture._* Така формулирано обхваща всички user-и ползващи платформата, а не  “…users in your list” и е валидно само след Successful login, иначе изскача съобщение “You must be login in order to see this page”. 
+
+Отделно пренасочването е възможно при clik on User’s name, not *_after clicking on their profile picture_*  съгласно REQ 1 -3.5.2. -””We can access the other user profile pages using search field, the list of all available users in the platform if you are logged for the first time or *clicking on the username from a public post*.
+
+original title *_Redirected to the profile of the user, after clicking on their profile picture._* 
+
+original steps:
+
+# Successful login in to the IStillo
+# Choose one of the users in your list
+# Click on to the picture ot the particular user
+
+Променям test case-a 
+
+Биляна - Екип 5",In Progress
+3.8 Posts,SK01EX-52,10190,Epic,In Progress,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,08/Jun/20 9:35 PM,24/Jun/20 4:25 PM,01/Oct/20 11:43 PM,,,,,Posts,,0,Team2,,"	The user should be able to create New posts from their profile page or using the main menu. The same functionality should be called using both of the options.
+	In addition the user should have an option to edit their already created posts.
+",,student2,,,,,,,,,,SK01EX-954,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-8,,3.8 Epic Posts,To Do,,,,0|i000uj:,,,,,,,,,,,,,In Progress
+"As a user I want to have a email validation with an error message: ""Тhe Email is already taken"", so that I could not register with the same email address",SK01EX-40,10178,Story,In Review,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,08/Jun/20 9:00 PM,24/Jun/20 2:56 PM,01/Oct/20 11:43 PM,,,,,Registration,,0,Team2,,"Acceptance criteria: 
+
+* The email adress must be unique and not taken from another user",,student2,,,,,,,,,,SK01EX-436,,,,,,,SK01EX-779,SK01EX-780,SK01EX-802,SK01EX-1790,SK01EX-1794,SK01EX-1913,,,,,,,,SK01EX-161,,,,,{},,SK01EX-27,,,,,,0|i000rv:,,,,,,,,,,,,,In Progress
+Confirmation that the user has followed other users,SK01EX-132,10270,Test,In Progress,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,10/Jun/20 8:57 PM,24/Jun/20 2:30 PM,01/Oct/20 11:43 PM,,,,,Homepage,,0,Team2,,"Tests if a confirmation message occurs for following of another user
+",,student2,,,,,,,,,,,,,,,,,SK01EX-1087,SK01EX-1131,SK01EX-1132,SK01EX-1173,SK01EX-1174,SK01EX-1311,SK01EX-1312,SK01EX-1313,SK01EX-1315,SK01EX-1419,SK01EX-1442,SK01EX-1859,SK01EX-1875,SK01EX-118,,,,,{},,,,,,,the user is logged in,0|i001bv:,,,,,,"Click on the Search field
+Find another user
+Click on the ""Follow"" button
+
+Expected result:
+A corfirmation message ""You followed the username of the user"" in green colour appears",,,,,,,In Progress
+"As a new user, I want to create an account with a registration form, so that I can fill in username, e-mail, password, confirm password and public info ",SK01EX-38,10176,Story,In Review,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,08/Jun/20 9:00 PM,24/Jun/20 12:06 PM,01/Oct/20 11:43 PM,,,,,Registration,,0,Team2,,"The registration form must contain username, e-mail, password, confirm password and public info fields.",,student2,,,,,,,,,,,,,,,,,SK01EX-362,SK01EX-377,SK01EX-428,SK01EX-415,SK01EX-453,SK01EX-846,SK01EX-1680,SK01EX-1689,SK01EX-1801,SK01EX-1806,,,,,,,,,{},,SK01EX-27,,,,,,0|i000rf:,,,,,,,,,,,,"10/Jun/20 1:39 PM;student2;Трябва ни информация за: 
+
+1.Username - символи итн..
+
+2. E-mail - дали трябва да има validation check и определена структора на имейла
+
+3.Password - Password policy ?",In Progress
+289 new password change and kill all other cessions in other browsers and devices ,SK01EX-800,10938,Bug,In Review,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,21/Jun/20 2:35 AM,23/Jun/20 8:37 PM,01/Oct/20 11:43 PM,,2020.3.1.4200,2020.3.2.4300,,Password policy,Registration,0,,,if you change your profile password it must automatically kill all other open cessions in other browsers and divisive. It don't close other active cessions. other problem is that when you new password is stored in to database but it don't work if you try to login again. May by is stored in to the database with different characters. We cant see because is crypted.,"http://training.skillo-bg.com:4200 ver. Version: 2020.3.1.4200
+operating system: Windows 10 Professional 
+Google Chrome - Version 83.0.4103.106 (Official Build) (64-bit)
+",student2,,,,,,,,,,,,,,,,,SK01EX-1672,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i005ej:,,,1 - Blocker,,,"1. Open URL http://training.skillo-bg.com:4200
+2. Go to the login form
+3. Input credentials
+4. Redirect to your profile page
+5. Go to the Settings
+6. Click ot button change password
+7. Enter the New password and remember it
+Expexted result:
+Automatically kill all of the active sessions on all of the devices for old password
+
+Act.R. All active sessions are still active",,,,,,,In Progress
+"As a new user, I want to have username field which should contain minimum 4 and max 20 symbols, so that the username can be validated",SK01EX-220,10358,Story,In Review,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,14/Jun/20 2:27 PM,23/Jun/20 8:07 PM,01/Oct/20 11:43 PM,,,,,Registration,,0,Team2,,"Acceptance criteria:
+
+* the username field in the registration form should have validation
+* the username should be between 4 and 20 symbols",,student2,,,,,,,,,,SK01EX-446,,,,,,,SK01EX-431,SK01EX-438,SK01EX-447,SK01EX-401,SK01EX-419,SK01EX-851,SK01EX-1316,SK01EX-1656,,,,,,,,,,,{},,SK01EX-27,,,,,,0|i001ub:,,,,,,,,,,,,,In Progress
+"As I user, I want my new post form to be limited to max 100 symbols text, so that it could not be too long",SK01EX-224,10362,Story,In Review,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,14/Jun/20 2:58 PM,22/Jun/20 8:49 PM,01/Oct/20 11:43 PM,,,,,Posts,,0,Team2,,"Acceptance criteria:
+- The post caption field in the new post form must be limited to max 100 symbols text",,student2,,,,,,,,,,SK01EX-718,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK01EX-52,,,,,,0|i001v7:,,,,,,,,,,,,,In Progress
+"As a user, a want to have a clickable ""Esc key"", so i can closethe form",SK01EX-103,10241,Story,In Review,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,09/Jun/20 10:50 PM,22/Jun/20 6:29 PM,01/Oct/20 11:43 PM,,,,,Posts,,0,Team2,,"Acceptance criteria:
+
+* Clickable “Esc key” to closes the form",,student2,,,,,,,,,,,,,,,,,SK01EX-1391,,,,,,,,,,,,,,,,,,{},,SK01EX-52,,,,,,0|i0015f:,,,,,,,,,,,,,In Progress
+"As a user, i want to have a friendly text above the form as follow: ""Post a picture to share with your awesome followers"", so i can be predisposed to do it",SK01EX-104,10242,Story,In Review,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,09/Jun/20 10:58 PM,22/Jun/20 12:55 AM,01/Oct/20 11:43 PM,,,,,Posts,,0,Team2,,"Acceptance criteria:
+
+* The form has a text above: Post a picture to share with your awesome followers",,student2,,,,,,,,,,SK01EX-1150,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK01EX-52,,,,,,0|i0015n:,,,,,,,,,,,,,In Progress
+"As I user, I want to know what picture format and size are permitted, so that my pictures to be uploaded",SK01EX-226,10364,Story,In Review,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,14/Jun/20 3:04 PM,21/Jun/20 11:48 PM,01/Oct/20 11:43 PM,,,,,Posts,,0,Team2,,"Acceptance criteria:
+- No limitation for picture format;
+- Max file size must be 10MB.",,student2,,,,,,,,,,SK01EX-796,,,,,,,SK01EX-1103,SK01EX-1117,SK01EX-1130,,,,,,,,,,,,,,,,{},,SK01EX-52,,,,,,0|i001vn:,,,,,,,,,,,,,In Progress
+"As a user i want to have ""New posts button"" in the profile page, so i can make a new posts from there.",SK01EX-65,10203,Story,In Review,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,08/Jun/20 9:51 PM,20/Jun/20 7:04 PM,01/Oct/20 11:43 PM,,,,,New post,,0,Team2,,"Acceptance criteria:
+
+* Button in the profile page must be recognizable 
+* New posts form should be opened",,student2,,,,,,,,,,,,,,,,,SK01EX-777,,,,,,,,,,,,,,,,,,{},,SK01EX-52,,,,,,0|i000xf:,,,,,,,,,,,,"09/Jun/20 9:51 PM;student2;В.Г. - Тук съм добавил в заглавието “so i can make a new posts from there”
+
+Добавих още и “Button in the profile page must be recognizable“",In Progress
+"As a user, i want to have a functionality to upload pictures, using Browse button, so i can easily use it.",SK01EX-102,10240,Story,In Review,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,09/Jun/20 10:47 PM,20/Jun/20 2:45 PM,01/Oct/20 11:43 PM,,,,,Posts,,0,Team2,,"Acceptance criteria:
+
+* Upload picture using Browse button",,student2,,,,,,,,,,,,,,,,,SK01EX-724,,,,,,,,,,,,,,,,,,{},,SK01EX-52,,,,,,0|i00157:,,,,,,,,,,,,10/Jun/20 1:28 PM;student2;Отново можем да попитаме за данни необходими за снимката за да бъде качена.,In Progress
+"As a user i want to have ""New post button"" from the main menu, so i can make a new posts from there",SK01EX-60,10198,Story,In Review,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,08/Jun/20 9:49 PM,20/Jun/20 2:42 PM,01/Oct/20 11:43 PM,,,,,Posts,,0,Team2,,"Acceptance criteria: 
+
+* After using the the button, it must opened and allow me to write a New post ",,student2,,,,,,,,,,,,,,,,,SK01EX-722,,,,,,,,,,,,,,,,,,{},,SK01EX-52,,,,,,0|i000wb:,,,,,,,,,,,,,In Progress
+"As a user, i want to have a functionality in upload picture field to ""drag and drop"", so i can easily use it.",SK01EX-101,10239,Story,In Review,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,09/Jun/20 10:43 PM,20/Jun/20 2:14 PM,01/Oct/20 11:43 PM,,,,,Posts,,0,Team2,,"Acceptance criteria:
+
+* drag and drop functionality must be available",,student2,,,,,,,,,,,,,,,,,SK01EX-707,,,,,,,,,,,,,,,,,,{},,SK01EX-52,,,,,,0|i0014z:,,,,,,,,,,,,,In Progress
+"As a new user, i want to have a ""Upload picture field"", so i can upload my pictures - required",SK01EX-98,10236,Story,In Review,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,09/Jun/20 10:28 PM,15/Jun/20 7:21 PM,01/Oct/20 11:43 PM,,,,,Posts,,0,Team2,,"Acceptance criteria:
+
+* Upload picture field must be clickable;
+* Upload picture field should redirect me to my file explorer to choose files;
+* ",,student2,,,,,,,,,,,,,,,,,SK01EX-348,,,,,,,,,,,,,,,,,,{},,SK01EX-52,,,,,,0|i0014b:,,,,,,,,,,,,"10/Jun/20 1:26 PM;student2;Тук трябва да попитаме дали има изисквания за снимките ( формат, размер, резолюция итн…) ?",In Progress
+"As a new user, i want to have a ""Caption field"", so i can write my post - required",SK01EX-100,10238,Story,In Review,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,09/Jun/20 10:33 PM,15/Jun/20 6:11 PM,01/Oct/20 11:43 PM,,,,,Posts,,0,Team2,,"Acceptance criteria:
+
+* It must be possible to write text in the caption field;",,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK01EX-52,,,,,,0|i0014r:,,,,,,,,,,,,10/Jun/20 1:27 PM;student2;Тук отново може да го попитаме колко символа и какви може да бъдат писани в полето. ,In Progress
+"As a user, I want to change my posts by clicking on them, so that I could change the information on them.",SK01EX-121,10259,Story,In Review,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,10/Jun/20 6:16 PM,15/Jun/20 5:23 PM,01/Oct/20 11:43 PM,,,,,Posts,,0,Team2,,"Acceptance criteria:
+
+* After confirming the change, the post will be changed",,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK01EX-52,,,,,,0|i0019f:,,,,,,,,,,,,,In Progress
+As a user i want to have error message for already taken email adress,SK01EX-42,10180,Story,In Review,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,08/Jun/20 9:07 PM,10/Jun/20 1:44 PM,01/Oct/20 11:43 PM,,,,,Registration,,0,Team2,,"Acceptance criteria:
+
+The email is taken it cannot be used for another registration.",,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK01EX-27,,,,,,0|i000sb:,,,,,,,,,,,,10/Jun/20 1:44 PM;student2;Доблирано .. За триене,In Progress
+As I customer i want to have confirm password criteria,SK01EX-50,10188,Story,In Review,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,08/Jun/20 9:31 PM,10/Jun/20 9:17 AM,01/Oct/20 11:43 PM,,,,,Registration,,0,Team2,,"Acceptance criteria: 
+
+- The password should match the password field  value",,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i000u3:,,,,,,,,,,,,,In Progress
+Check if unregistered user cannot comment or like any post,SK02EX-606,13044,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,27/Sep/20 8:22 PM,01/Oct/20 10:22 PM,01/Oct/20 10:23 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,SK02EX-1028,,,,,,,,,,,,,SK02EX-137,,,,,{},,,,,https://.....,,Public posts are needed.,0|i00hxr:,,,,Party Club Sprint 1,,"1. Use the input address.
+2. Try to like, share or leave post.
+Expected result - Homepage opens and the unregistered user cannot comment or like any post.",,,,,,,To Do
+Delete this,SK02EX-302,12740,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,26/Sep/20 8:49 PM,01/Oct/20 10:10 PM,01/Oct/20 10:09 PM,,,,,,,0,PartyClub,,"
+
+|| || || ||
+| | | |
+| | | |",,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-88,,,,,,0|i00g2n:,,,,Party Club Sprint 1,,,,,,,,,To Do
+Delete this,SK02EX-611,13049,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,27/Sep/20 8:41 PM,01/Oct/20 9:57 PM,01/Oct/20 9:58 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00hyv:,,,,Party Club Sprint 1,,,,,,,,,To Do
+"The way to post a post is by clicking ""Submit"" button",SK02EX-1096,13534,Bug,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Low,,student2,student2,student2,01/Oct/20 9:56 PM,01/Oct/20 9:56 PM,01/Oct/20 9:56 PM,,Version: 2020.3.1.4200,,,,,0,PartyClub,,,Opera 70,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00kxj:,,,5 - Minor,Party Club Sprint 1,,"1.As a registered user login to the system
+2.Press ""New Post"" button
+Expected result: ""Post"" button seen in the opened form
+Actual result ""Submit"" button is seen in the opened form",,,,,,,To Do
+Access to post attributes,SK02EX-723,13161,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,28/Sep/20 6:13 PM,01/Oct/20 9:56 PM,01/Oct/20 9:51 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,SK02EX-1034,SK02EX-1048,,,,,,,,,,,,SK02EX-1096,,,,,{},,SK02EX-692,,,,,"created user: username - user1
+                     password - 1user",0|i00inr:,,,,Party Club Sprint 1,,"1.Login as 'user1'
+2.Go to the profile page
+3.Press 'New Post' button
+->New Post form appears
+-> in the new post form a filed for uploading picture is seen
+->a field for post caption is seen
+->post status switch is seen
+-> 'post"" button
+-> ""X"" button for closing is seen ",,,,,,,To Do
+REQ2: New posts form has some attributes,SK02EX-712,13150,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,28/Sep/20 5:44 PM,01/Oct/20 9:56 PM,01/Oct/20 9:37 PM,,,,,,,0,PartyClub,,"New post attributes are:
+
+-uploading picture field, 
+
+-post caption field,
+
+- post status switch – private or public, 
+
+-post button 
+
+-X button to close the form.",,student2,,,,,,,,,,,,,,,,,SK02EX-723,SK02EX-1034,SK02EX-1048,,,,,,,,,,,SK02EX-1096,,,,,{},,SK02EX-692,,,,,,0|i00ilb:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-2: If username is taken,SK02EX-309,12747,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,26/Sep/20 8:59 PM,01/Oct/20 9:45 PM,01/Oct/20 9:45 PM,,,,,,,0,PartyClub,,The username field has validation if the filled username is already taken. If the username is taken it cannot be used for another registration.,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-123,,,,,,0|i00g47:,,,,Party Club Sprint 1,,,,,,,,,To Do
+Text appears at the upper side of the form,SK02EX-845,13283,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,30/Sep/20 7:31 PM,01/Oct/20 9:45 PM,01/Oct/20 9:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-1090,,,,,{},,,,,,,user 1 is logged in ,0|i00jev:,,,,Party Club Sprint 1,,"1.Go to the profile picture
+2.Click on ""new Post"" button
+-> a post form is opened
+->at the upper side of the form following text appears: Post a picture to share with your awesome followers",,,,,,,To Do
+REQ-6: Username validation,SK02EX-316,12754,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,26/Sep/20 9:01 PM,01/Oct/20 9:43 PM,01/Oct/20 9:42 PM,,,,,,,0,PartyClub,,Username validation – minimum length 4 and max 20 symbols,,student2,,,,,,,,,,,,,,,,,SK02EX-1060,,,,,,,,,,,,,,,,,,{},,SK02EX-123,,,,,,0|i00g5r:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-4: ,SK02EX-300,12738,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,26/Sep/20 8:39 PM,01/Oct/20 9:43 PM,01/Oct/20 10:10 PM,,,,,,,0,PartyClub,,The user can use the infinite scroll to browse available posts,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-88,,,,,,0|i00g27:,,,,Party Club Sprint 1,,,,,,,,,To Do
+Verify that user can use the infinite scroll to browse,SK02EX-1087,13525,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,01/Oct/20 9:43 PM,01/Oct/20 9:43 PM,01/Oct/20 9:55 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-300,,,,,{},,,,,"https://.....
+username
+password",,"Registered user is required.
+Available posts are required.",0|i00kvj:,,,,Party Club Sprint 1,,"1. Open the input URL.
+2. Fill the login form with the right credentials from the input data.
+3. Click on the Login button.
+4. Try to use the infinite scroll.
+Expected result:
+The user can use the infinite scroll to browse available posts.
+",,,,,,,To Do
+"""Esc"" key doesn't close the post form",SK02EX-1086,13524,Bug,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,01/Oct/20 9:42 PM,01/Oct/20 9:42 PM,01/Oct/20 9:42 PM,,Version: 2020.3.1.4200,,,,,0,PartyClub,,,Opera 70,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00kvb:,,,3 - Major,Party Club Sprint 1,,"1.As registered user login to the system
+2.Press ""New Post"" button
+3.Press ""Esc"" key
+Expected result: The Post form is closed
+Actual Result: The post form is not closed",,,,,,,To Do
+Ways to close a post form,SK02EX-837,13275,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,30/Sep/20 6:49 PM,01/Oct/20 9:42 PM,01/Oct/20 9:42 PM,,,,,,,0,PartyClub,,"There are two ways to close a post form:
+-by using ""Esc"" key - REQ 5
+-by using ""X"" button - REQ 2",,student2,,,,,,,,,,,,,,,,,SK02EX-840,SK02EX-841,SK02EX-1048,SK02EX-1086,,,,,,,,,,,,,,,{},,SK02EX-692,,,,,,0|i00jd3:,,,,Party Club Sprint 1,,,,,,,,,To Do
+"A post form can be closed by using ""Esc"" key",SK02EX-841,13279,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,30/Sep/20 7:07 PM,01/Oct/20 9:42 PM,01/Oct/20 9:37 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,SK02EX-1080,SK02EX-1086,,,,,,,,,,,,,,,,,{},,,,,,,"user1 is logged in
+New post form is opened",0|i00jdz:,,,,Party Club Sprint 1,,"1.Press ""Esc"" from the keyboard
+Expected result: The post form must be closed",,,,,,,To Do
+Username can`t be less than 4 symbols,SK02EX-1081,13519,Bug,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,01/Oct/20 9:40 PM,01/Oct/20 9:40 PM,01/Oct/20 9:40 PM,,Version: 2020.3.1.4200,,,,,0,PartyClub,,,"Google Chrome
+Версия 85.0.4183.121",student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-123,,,,,,0|i00ku7:,,,5 - Minor,Party Club Sprint 1,,"1.Open registration page
+2. Fill the username field with 3 symbols Ex.:""Par""
+Expected result : Error message appears.Minimum length 4 and max 20 symbols.
+Actual result:Username can be less then 4 symbols",,,,,,,To Do
+Username can`t be less than 4 symbols,SK02EX-713,13151,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,28/Sep/20 5:47 PM,01/Oct/20 9:40 PM,01/Oct/20 9:38 PM,,,,,,,0,PartyClub,,Username validation – minimum length 4 and max 20 symbols,,student2,,,,,,,,,,,,,,,,,SK02EX-1053,SK02EX-1081,,,,,,,,,,,,SK02EX-316,,,,,{},,SK02EX-123,,,,,,0|i00ilj:,,,,Party Club Sprint 1,,"1.Open registration page
+2. Fill the username field with 3 symbols Ex.:""Par""
+Expected result : Error message appears.Minimum length 4 and max 20 symbols.",,,,,,,To Do
+ PC Registration,SK02EX-123,12561,Epic,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,24/Sep/20 9:35 PM,01/Oct/20 9:40 PM,01/Oct/20 9:44 PM,,,,,,,0,PartyClub,,_In order to use the full functionality and has the best experience with the product the user should be registered and logged in. The platform provide registration form which is used to create user to use the platform._,,student2,,,,,,,,,,,,,,,,,SK02EX-1058,SK02EX-1060,SK02EX-1062,SK02EX-1081,,,,,,,,,,,,,,,{},ghx-label-5,,PC Registration,To Do,,,,0|i00fcj:,,,,Party Club Sprint 1,,,,,,,,,To Do
+Access to user profile using the search field,SK02EX-884,13322,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,30/Sep/20 10:13 PM,01/Oct/20 9:40 PM,01/Oct/20 10:21 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-293,,,,,{},,,,,"https://.....
+username
+password",,User profile with a few public posts is needed.,0|i00jnj:,,,,Party Club Sprint 1,,"1. Open the input URL.
+2. Fill the login form with the right credentials from the input data.
+3. Click on the Login button.
+4. Click on the search field.
+5. Find existing user profile
+Expected result
+Access to the other user profile page is granted.",,,,,,,To Do
+Unable to use already registered username or password,SK02EX-1020,13458,Test Case Execution,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,01/Oct/20 8:17 PM,01/Oct/20 9:37 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00kgv:,,,,,,,,,,,,,To Do
+"When opening a New post form, there is no ""X"" button",SK02EX-1048,13486,Bug,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,01/Oct/20 9:17 PM,01/Oct/20 9:37 PM,01/Oct/20 9:35 PM,,Version: 2020.3.1.4200,,,,,0,PartyClub,,,Opera 70,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00kn3:,,,3 - Major,Party Club Sprint 1,,"1.As a registered user login into the system
+2.Go to profile picture
+3.Press New Post button
+->a new post form is opened
+Expected result: ""X"" button is seen for closing the form
+Actual result: There is no ""X"" button",,,,,,,To Do
+"A post form can be closed by using ""X"" button",SK02EX-840,13278,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,30/Sep/20 6:57 PM,01/Oct/20 9:37 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,SK02EX-1048,,,,,,,,,,,,,,,,,,{},,,,,,,"user1 is logged in
+New post form is opened",0|i00jdr:,,,,Party Club Sprint 1,,"1.Click on ""X"" button
+Expected result: The Post form is closed",,,,,,,To Do
+"A picture can be upload by using ""Browse"" button",SK02EX-833,13271,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,30/Sep/20 6:29 PM,01/Oct/20 9:34 PM,01/Oct/20 9:31 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,SK02EX-1074,,,,,,,,,,,,,,,,,,{},,,,,,,"user1 is logged in
+New Post form is opened",0|i00jc7:,,,,Party Club Sprint 1,,"1.Go to  upload picture field
+2.Press ""Browse"" button
+Expected result: The system gives you the opportunity to choose and upload a picture",,,,,,,To Do
+A picture can be upload using drag and drop function,SK02EX-1069,13507,Test Case Execution,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,01/Oct/20 9:30 PM,01/Oct/20 9:30 PM,01/Oct/20 9:30 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00krj:,,,,,,,,,,,,,To Do
+A picture can be upload using drag and drop function,SK02EX-835,13273,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,30/Sep/20 6:43 PM,01/Oct/20 9:30 PM,01/Oct/20 9:30 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,SK02EX-1069,,,,,,,,,,,,,,,,,,{},,,,,,,"user 1 is logged in
+a New Post form is opened",0|i00jcn:,,,,Party Club Sprint 1,,"1.Go to the repository where the wanted picture is
+2.Drag and drop it to the Upload picture field
+Expected result: The picture is upload by using drag and drop function",,,,,,,To Do
+A new post cannot be created when caption field or  picture field are not upload,SK02EX-826,13264,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,30/Sep/20 5:23 PM,01/Oct/20 9:28 PM,01/Oct/20 9:29 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,SK02EX-1066,,,,,,,,,,,,,,,,,,{},,,,,,,"user 1 is logged in
+/username : user 1
+user pass : 1user/
+The user is at his profile page
+
+",0|i00jan:,,,,Party Club Sprint 1,,"1.Press ""New Post"" button
+2.Upload a picture from the picture field
+3.Press ""Post"" button
+Expected result: The post will not be posted. 
+5.Repeat the same test but in step 2, type in the caption field. 
+Expected result: The Post will not be created",,,,,,,To Do
+ Username can be 20 symbols,SK02EX-1062,13500,Test Case Execution,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,01/Oct/20 9:26 PM,01/Oct/20 9:26 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00kq7:,,,,,,,,,,,,,To Do
+ Username can be 20 symbols,SK02EX-805,13243,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,29/Sep/20 9:43 PM,01/Oct/20 9:26 PM,01/Oct/20 9:40 PM,,,,,,,0,PartyClub,,Username validation – minimum length 4 and max 20 symbols,,student2,,,,,,,,,,,,,SK02EX-804,,,,SK02EX-1062,,,,,,,,,,,,,SK02EX-316,,,,,{},,SK02EX-123,,,,,,0|i00j5z:,,,,Party Club Sprint 1,,"1.Open registration page
+2. Fill the username field with 20 symbols Ex.:""PartyClub20202020202""
+Expected result : Username is accepted.",,,,,,,To Do
+"When setting picture and caption field, a new post can be posted",SK02EX-825,13263,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,30/Sep/20 5:09 PM,01/Oct/20 9:26 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,SK02EX-1061,,,,,,,,,,,,,,,,,,{},,,,,,,"user 1 logged in into the system / username : user 1
+                                                       user pass: 1user /
+",0|i00jaf:,,,,Party Club Sprint 1,,"1.Go to profile page
+2.Press ""New Post"" button
+3.Upload a picture from the picture field
+->a picture us upload
+4.Give a caption in the caption field
+5.Press ""Post"" button
+Expected Result: The post is created.",,,,,,,To Do
+ Username can be 4 symbols,SK02EX-804,13242,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,29/Sep/20 9:42 PM,01/Oct/20 9:25 PM,01/Oct/20 9:40 PM,,,,,,,0,PartyClub,,Username validation – minimum length 4 and max 20 symbols,,student2,,,,,,,,,,,,,SK02EX-803,,,,SK02EX-1060,,,,,,,,,,,,,SK02EX-316,,,,,{},,SK02EX-123,,,,,,0|i00j5r:,,,,Party Club Sprint 1,,"1.Open registration page
+2. Fill the username field with 4 symbols Ex.:""Part""
+Expected result : Username is accepted.",,,,,,,To Do
+Username can`t be more than 20 symbols,SK02EX-803,13241,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,29/Sep/20 9:39 PM,01/Oct/20 9:23 PM,01/Oct/20 9:31 PM,,,,,,,0,PartyClub,,Username validation – minimum length 4 and max 20 symbols,,student2,,,,,,,,,,,,,SK02EX-713,,,,SK02EX-1058,,,,,,,,,,,,,SK02EX-316,,,,,{},,SK02EX-123,,,,,,0|i00j5j:,,,,Party Club Sprint 1,,"1.Open registration page
+2. Fill the username field with 21 symbols Ex.:""PartyClub212121212121""
+Expected result : Error message appears.""Minimum length 4 and max 20 symbols.""",,,,,,,To Do
+Registration form fields,SK02EX-1042,13480,Bug,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,01/Oct/20 9:12 PM,01/Oct/20 9:12 PM,01/Oct/20 11:43 PM,,Version: 2020.3.1.4200,,,,,0,PartyClub,,,"Google Chrome
+Версия 85.0.4183.121",student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-123,,,,,,0|i00klr:,,,5 - Minor,Party Club Sprint 1,,"1.Open registration form page
+2.Check if there are the following fields – username, email, password, confirm password, public info.
+3.Check if it has date of birth.
+Expected result: Registration form has the following fields – username, email, password, confirm password, public info. Registration form don`t have date of birth .
+Actual result:  Registration form has the following fields – username, email, password, confirm password. Registration form DON`T HAVE public info field,",,,,,,,To Do
+Registration form fields,SK02EX-806,13244,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,29/Sep/20 9:56 PM,01/Oct/20 9:12 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,"Registration form has the following fields – username, email, password, confirm password, public info. The mockup has date of birth which is not true.",,student2,,,,,,,,,,,,,,,,,SK02EX-1014,SK02EX-1042,,,,,,,,,,,,SK02EX-307,,,29/Sep/20 10:04 PM;student2;mockupRegistrationFormFields.png;https://skillo.atlassian.net/secure/attachment/10066/mockupRegistrationFormFields.png,,{},,SK02EX-123,,,,,,0|i00j67:,,,,Party Club Sprint 1,,"1.Open registration form page
+2.Check if there are the following fields – username, email, password, confirm password, public info.
+3.Check if it has date of birth.
+Expected result: Registration form has the following fields – username, email, password, confirm password, public info. Registration form don`t have date of birth .",,,,,,,To Do
+Check if the user can see any author information and creation date for each post,SK02EX-608,13046,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,27/Sep/20 8:35 PM,01/Oct/20 9:01 PM,01/Oct/20 10:20 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-301,,,,,{},,,,,"https://partyclubtest.com
+user123/321123",,,0|i00hy7:,,,,Party Club Sprint 1,,"1. Use the input address
+2. Scroll up and down the page.
+3. Use the valid cretentials in
+Expected result - Homepage opens and the user can see the information about the author and creation date for each post",,,,,,,To Do
+"Check if unregistered user can see public posts,comments and count of likes/dislikes per post",SK02EX-604,13042,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,27/Sep/20 8:07 PM,01/Oct/20 8:34 PM,01/Oct/20 10:15 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,SK02EX-1025,,,,,,,,,,,,,SK02EX-5,,,,,{},,,,,https://partyclubtest.com,,,0|i00hxb:,,,,Party Club Sprint 1,,"1. Use the input address
+2. Scroll up and down the page.
+Expected result - Homepage opens and the unregistered user can see all of the public posts, all comments and count of likes/dislikes per post.",,,,,,,To Do
+New posts form has uploading picture field,SK02EX-717,13155,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,28/Sep/20 5:58 PM,01/Oct/20 8:34 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-692,,,,,"created user: username:user1
+                     password: 1user",0|i00imf:,,,,Party Club Sprint 1,,"1.Enter the system as user1
+2.Go to the profile page
+3.Press ""New post"" button
+Expected result:
+->new post form appears
+-> in the new post form, a field for uploading picture appears ",,,,,,,To Do
+A new post is opened from the main menu,SK02EX-709,13147,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,28/Sep/20 5:33 PM,01/Oct/20 8:26 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,SK02EX-1023,,,,,,,,,,,,,,,,,,{},,SK02EX-692,,,1.User 1 login ,,"user created:  username:user1
+                       password: 1user
+
+        ",0|i00ikn:,,,,Party Club Sprint 1,,"1.Go to Main menu
+2.Click on ""New posts"" option
+Expected Result:  A new post field is opened",,,,,,,To Do
+A new post can be opened from the profile page,SK02EX-707,13145,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,28/Sep/20 5:25 PM,01/Oct/20 8:19 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,SK02EX-1021,,,,,,,,,,,,,,,,,,{},,SK02EX-692,,,1.User1 login into his profile,,"created user:username -  user1 
+                    password - 1user
+
+created button & link connection: new post",0|i00ik7:,,,,Party Club Sprint 1,,"1.Go to the profile page
+2. Press ""New Post"" button
+
+Expected result: A new post form is opened",,,,,,,To Do
+REQ:10 Length of the text is max 100 symbols,SK02EX-1000,13438,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,01/Oct/20 6:23 PM,01/Oct/20 7:32 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,"Max length of a post is 100 symbols.
+In this number are included numbers, lower cases, capital letters, symbols.Space is  counted as a symbol.",,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00kcn:,,,,Party Club Sprint 1,,,,,,,,,To Do
+Post Functional Requirements ,SK02EX-692,13130,Epic,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,28/Sep/20 4:55 PM,01/Oct/20 6:25 PM,01/Oct/20 9:57 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,SK02EX-706,SK02EX-712,SK02EX-822,SK02EX-829,SK02EX-837,SK02EX-843,SK02EX-850,SK02EX-1000,,,,,,,,,,,{},ghx-label-3,,Post Functional Requirements,To Do,,,,0|i00igv:,,,,Party Club Sprint 1,,,,,,,,,To Do
+ .Cannot manipulate data of the other users,SK02EX-958,13396,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,01/Oct/20 1:57 PM,01/Oct/20 6:23 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-952,,,,,,0|i00k3r:,,,,Party Club Sprint 1,,,,,,,,,To Do
+The user provides wrong password,SK02EX-167,12605,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,24/Sep/20 10:10 PM,01/Oct/20 6:23 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-327,SK02EX-958,,,,{},,SK02EX-320,,,,,"Registered user
+Username : PartyClub
+Password:PartyClub123",0|i00fmb:,,,,Party Club Sprint 1,,"1.Set correct username. 
+2. Set incorrect password.
+3. Click log in button.
+Expected result: Error message ""Wrong username or password appears"" You can`t log in.",,,,,,,To Do
+A user can like/dislike a post after creating it,SK02EX-999,13437,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,01/Oct/20 6:14 PM,01/Oct/20 6:14 PM,01/Oct/20 9:48 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"user 1 is logged in
+user 1 has already created a post",0|i00kcf:,,,,Party Club Sprint 1,,"1.Go to a created post
+2.Press ""like"" button
+->the post becomes with a like
+3.Press the same button
+->the like is disabled",,,,,,,To Do
+REQ8 & 9: The created post can be changed ,SK02EX-987,13425,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,01/Oct/20 5:31 PM,01/Oct/20 6:14 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,"The created post can be changed by clicking on it.
+A user can change the status of the post and delete it. Also can comment/like/dislike it.
+",,student2,,,,,,,,,,,,,,,,,SK02EX-991,SK02EX-995,SK02EX-997,SK02EX-999,,,,,,,,,,,,,,,{},,SK02EX-692,,,,,,0|i00k9r:,,,,Party Club Sprint 1,,,,,,,,,To Do
+"REQ-3: The list of the available users, follow users",SK02EX-398,12836,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 10:21 PM,01/Oct/20 6:10 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,"The list of the available users includes their profile picture, their name and link to Follow/Unfollow them. When the user follows somebody a green message appears. It says: You followed the username of the user. The user can follow single or multiple users from this list.",,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-392,,,,,,0|i00gnz:,,,,Party Club Sprint 1,,,,,,,,,To Do
+When you follow some user a message appears,SK02EX-998,13436,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,01/Oct/20 6:10 PM,01/Oct/20 6:10 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,"When the user follows somebody a green message appears. It says: You followed the (username of the user).
+ ",,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-398,,,,,{},,SK02EX-392,,,"Registered user
+Username: PartyClub
+Password: PartyClub123
+",,,0|i00kc7:,,,,Party Club Sprint 1,,"1.Log in
+2.Follow some user from the list of available users
+Expected result: A green message appears. It says: You followed )the username of the user)",,,,,,,To Do
+PC Homepage after login,SK02EX-392,12830,Epic,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 10:18 PM,01/Oct/20 6:10 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,"On the homepage the users can see posts, users, can open posts and interact with them.",,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-4,, PC Homepage after login,To Do,,,,0|i00gmn:,,,,Party Club Sprint 1,,,,,,,,,To Do
+A user can comment on his post ,SK02EX-997,13435,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,01/Oct/20 6:09 PM,01/Oct/20 6:09 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"user1 logged in
+user 1 has already created a post",0|i00kbz:,,,,Party Club Sprint 1,,"1.Go to the created post from the profile page
+2.Click on the comment field
+3.Type and send the comment
+->the comment is added under the post",,,,,,,To Do
+Profile and new post menus on Homepage,SK02EX-970,13408,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,01/Oct/20 2:32 PM,01/Oct/20 6:06 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,If the user provides correct credentials they are redirected to the Homepage. There are menus Profile and New post available next to Homepage menu. There are also search field and logout button available.,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-326,,,01/Oct/20 5:34 PM;student2;Homepage.jpg;https://skillo.atlassian.net/secure/attachment/10095/Homepage.jpg,,{},,SK02EX-320,,,"Registered user
+Username: PartyClub
+Password: PartyClub123
+",,,0|i00k67:,,,,Party Club Sprint 1,,"1.Log in
+1.Go to homepage
+3.Check if there is ""Profile"" menu like the mock up
+4.Check if there is ""New post"" menu like the mock up
+5.Check if there is ""Search"" field like the mock up
+6.Check if there is log out button 
+Expected result:There are menus Profile and New post available next to Homepage menu. There are also search field and logout button available.",,,,,,,To Do
+Unfollow user  from homepage,SK02EX-993,13431,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,01/Oct/20 5:53 PM,01/Oct/20 5:56 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-404,,,01/Oct/20 5:54 PM;student2;Unfollow button.jpg;https://skillo.atlassian.net/secure/attachment/10096/Unfollow+button.jpg,,{},,SK02EX-392,,,"Registered user
+Username: PartyClub
+Password: PartyClub123
+",,,0|i00kb3:,,,,Party Club Sprint 1,,"1.Log in
+1.Go to homepage
+3.Click on any post
+4. Click on ""Unfollow"" button from the opened post (it is shown on the mockup)
+5. Find the same user who shared  the post and check if you unfollowed him
+Expected result: You unfollowed the user.",,,,,,,To Do
+A created post can be deleted,SK02EX-995,13433,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,01/Oct/20 5:55 PM,01/Oct/20 5:55 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"user 1 is logged in
+user 1 has already created a post",0|i00kbj:,,,,Party Club Sprint 1,,"1.From profile age find an already created post
+2.Click on it
+3.Press the delete button
+->the post is deleted ",,,,,,,To Do
+"REQ-7: Comments ,likes ot dislikes after login",SK02EX-404,12842,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 10:26 PM,01/Oct/20 5:53 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,"We can open any of the available posts clicking on it and can comment, like or dislike. Also we can unfollow the owner clicking Unfollow button from the opened post.",,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-392,,,,,,0|i00gpb:,,,,Party Club Sprint 1,,,,,,,,,To Do
+The post status can be changed  when editing the post,SK02EX-991,13429,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,01/Oct/20 5:46 PM,01/Oct/20 5:46 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,"user registered
+user 1 has created a post with private status",0|i00kan:,,,,Party Club Sprint 1,,"1.As user 1 log into the system
+2.Go to the profile page
+3.Go to the last created post
+4.Click on it
+->the post become in editing mode
+5.Press the switch to change the status from private to public
+6.Exit editing 
+/7/Go to filter and check if the post in seen in public ones /",,,,,,,To Do
+Like/ dislike posts,SK02EX-990,13428,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,01/Oct/20 5:44 PM,01/Oct/20 5:44 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-404,,,,,{},,SK02EX-392,,,"Registered user
+Username: PartyClub
+Password: PartyClub123
+",,,0|i00kaf:,,,,Party Club Sprint 1,,"1.Log in
+1.Go to homepage
+3.Click on any post
+4. Choose some post and click on ""Like"" button
+5. Dislike the same post
+Expected result: User can like and dislike available post.",,,,,,,To Do
+Review of the user posts ( public and private) using the post filter,SK02EX-989,13427,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,01/Oct/20 5:42 PM,01/Oct/20 5:42 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,"https://.....
+username
+password",,"User profile is needed.
+Second user with private and public posts.",0|i00ka7:,,,,Party Club Sprint 1,,"1. Open the input URL.
+2. Use valid log in credentials.
+3. Search for another user profile.
+4.Follow the user (if it is not already followed)
+5.Use the post filter and start to switch between private and public posts
+6,Unfollow the user
+7.Try to .Use the post filter and start to switch between private and public posts.
+Expected result:
+Posts filter is disabled, no access to any private posts.",,,,,,,To Do
+REQ-6,SK02EX-299,12737,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 8:35 PM,01/Oct/20 5:42 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,Using the Posts filter we can switch between Private and Public except we did not follow the user. In this case tabs All and Private are disabled.,,student1,,,,,,,,,,,,,,SK02EX-989,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-131,,,,,,0|i00g1z:,,,,Party Club Sprint 1,,,,,,,,,To Do
+Comment some post,SK02EX-988,13426,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,01/Oct/20 5:41 PM,01/Oct/20 5:41 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-404,,,,,{},,SK02EX-392,,,"Registered user
+Username: PartyClub
+Password: PartyClub123
+",,,0|i00k9z:,,,,Party Club Sprint 1,,"1.Log in
+1.Go to homepage
+3.Click on any post
+4. Try to write s comment 
+Expected result: User can comment available post.",,,,,,,To Do
+REQ-6: Followed users and our own posts,SK02EX-402,12840,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 10:25 PM,01/Oct/20 3:17 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,If we have a list of followed users with posts or we have our own posts they are available on the homepage.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-392,,,,,,0|i00gov:,,,,Party Club Sprint 1,,,,,,,,,To Do
+Posts of already followed users,SK02EX-809,13247,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,29/Sep/20 11:30 PM,01/Oct/20 3:16 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,If the user already logged before and followed some users they are landed on the Homepage and see the list of all available posts of the followed users including their own if there are such.,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-397,SK02EX-402,,,,{},,SK02EX-392,,,"Registered user
+Username: PartyClub
+Password: PartyClub123
+",,,0|i00j6v:,,,,Party Club Sprint 1,,"1. Log in
+2. Go to Homepage
+Expected result: The user sees the list of all available posts of the followed users including their own if there are such.",,,,,,,To Do
+REQ-4 Private posts of unfollowed users,SK02EX-400,12838,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 10:24 PM,01/Oct/20 3:13 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,If we open the user without follow those their private posts are not visible.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-392,,,,,,0|i00gof:,,,,Party Club Sprint 1,,,,,,,,,To Do
+Unfollowed users private posts,SK02EX-972,13410,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,01/Oct/20 3:13 PM,01/Oct/20 3:13 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,If we open the user without follow those their private posts are not visible,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-400,,,,,{},,SK02EX-392,,,"Registered user
+Username: PartyClub
+Password: PartyClub123
+",,,0|i00k6n:,,,,Party Club Sprint 1,,"1.Log in
+1.Go to some user`s profile without follow  those
+3.Check if you sees user`s private posts
+Expected result: Unfollowed user`s private posts are not visible.",,,,,,,To Do
+REQ-4: If the user provides correct credentials they are redirected to the Homepage,SK02EX-326,12764,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,26/Sep/20 9:11 PM,01/Oct/20 2:32 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,If the user provides correct credentials they are redirected to the Homepage. There are menus Profile and New post available next to Homepage menu. There are also search field and logout button available.,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-320,,,,,,0|i00g7z:,,,,Party Club Sprint 1,,,,,,,,,To Do
+PC Login,SK02EX-320,12758,Epic,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,26/Sep/20 9:07 PM,01/Oct/20 2:32 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,After registration the user should login in order to use the full functionality of the platform.,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-2,,PC Login,To Do,,,,0|i00g6n:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-8: Forgotten password ,SK02EX-965,13403,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,01/Oct/20 2:07 PM,01/Oct/20 2:07 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,Forgot password will be implemented on a later stage,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-320,,,,,,0|i00k5b:,,,,Party Club Sprint 1,,,,,,,,,To Do
+PC Security Requirements,SK02EX-952,13390,Epic,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,01/Oct/20 1:42 PM,01/Oct/20 1:57 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-5,,PC Security Requirements,To Do,,,,0|i00k2f:,,,,Party Club Sprint 1,,,,,,,,,To Do
+When user changes their password all active sessions on all devices are killed,SK02EX-957,13395,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,01/Oct/20 1:56 PM,01/Oct/20 1:57 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-952,,,,,,0|i00k3j:,,,,Party Club Sprint 1,,,,,,,,,To Do
+Change password,SK02EX-807,13245,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,29/Sep/20 10:40 PM,01/Oct/20 1:57 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,If the user change their password it should automatically kill all of the active sessions on all of the devices,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-329,SK02EX-957,,,,{},,SK02EX-320,,,"Registered user
+Username: PartyClub
+Password: PartyClub123
+New password: PartyClub1234",,,0|i00j6f:,,,,Party Club Sprint 1,,"1.Open login page
+2. Log in on device 1
+3.Log in with other device 2
+4.Change the password on device 1
+4. Check is the other device 2 unlogged
+Expected result: Device 2 `s session is killed.",,,,,,,To Do
+Cannot register if password policy is not considered,SK02EX-956,13394,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,01/Oct/20 1:49 PM,01/Oct/20 1:53 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-952,,,,,,0|i00k3b:,,,,Party Club Sprint 1,,,,,,,,,To Do
+Password should contain at least 6 symbols including 1 big letter and 1 digit.,SK02EX-797,13235,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,29/Sep/20 8:56 PM,01/Oct/20 1:53 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,SK02EX-796,,,,,,,,,,,,,,,,,SK02EX-313,SK02EX-956,,,,{},,SK02EX-123,,,,,,0|i00j47:,,,,Party Club Sprint 1,,"1.Open registration page
+2. Fill the password field with at least 6 symbols including 1 big letter and 1 digit.
+ Ex. ""aBvgdeJ11""
+Expected result :Password is accepted.",,,,,,,To Do
+Cannot register with same mail and same username,SK02EX-953,13391,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,01/Oct/20 1:45 PM,01/Oct/20 1:52 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-952,,,,,,0|i00k2n:,,,,Party Club Sprint 1,,,,,,,,,To Do
+Password should contain at least 1 digit,SK02EX-796,13234,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,29/Sep/20 8:55 PM,01/Oct/20 1:49 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,There is password policy for the password field. Each password should contain at least 6 symbols including 1 big letter and 1 digit.,,student2,,,,,,,,,,,,,SK02EX-708,,,,,,,,,,,,,,,,,SK02EX-313,SK02EX-956,,,,{},,SK02EX-123,,,,,,0|i00j3z:,,,,Party Club Sprint 1,,"1.Open registration page
+2. Fill the password field with big and small letters Ex. ""aBvgdeJ""
+Expected result : Error message appears.""Each password should contain at least 6 symbols including 1 big letter and 1 digit.""",,,,,,,To Do
+Password should contain at least 1 capital letter,SK02EX-795,13233,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,29/Sep/20 8:47 PM,01/Oct/20 1:49 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,There is password policy for the password field. Each password should contain at least 6 symbols including 1 big letter and 1 digit.,,student2,,,,,,,,,,,,,SK02EX-708,,,,,,,,,,,,,,,,,SK02EX-313,SK02EX-956,,,,{},,SK02EX-123,,,,,,0|i00j3r:,,,,Party Club Sprint 1,,"1.Open registration page
+2. Fill the password field with lowercase letters  and digit  Ex. ""abvgde1""
+Expected result : Error message appears: ""Each password should contain at least 6 symbols including 1 big letter and 1 digit.""",,,,,,,To Do
+Password should contain at least 6 symbols,SK02EX-708,13146,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,28/Sep/20 5:32 PM,01/Oct/20 1:49 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,There is password policy for the password field. Each password should contain at least 6 symbols including 1 big letter and 1 digit.,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-313,SK02EX-956,,,,{},,SK02EX-123,,,,,,0|i00ikf:,,,,Party Club Sprint 1,,"1.Open registration page
+2. Fill the password field with 5 symbols Ex. ""aBvg1""
+Expected result : Error message appears.""Each password should contain at least 6 symbols including 1 big letter and 1 digit.""",,,,,,,To Do
+REQ-5,SK02EX-298,12736,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 8:34 PM,30/Sep/20 11:18 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,If we do not follow the user we can’t see their private posts.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-131,,,,,,0|i00g1r:,,,,Party Club Sprint 1,,,,,,,,,To Do
+Unfollowed user hidden private posts,SK02EX-891,13329,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,30/Sep/20 11:18 PM,30/Sep/20 11:18 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-298,,,,,{},,,,,"https://.....
+username
+password",,"User profile is needed.
+Second user with at least two private posts.",0|i00jov:,,,,Party Club Sprint 1,,"1. Open the input URL.
+2. Use valid log in credentials.
+3. Search for another user profile.
+4. Unfollow the user (only if it is already followed)
+5. Check can you see the private posts of the user.
+Expected result:
+Private posts are not visible.",,,,,,,To Do
+Followers count of a relevant user,SK02EX-890,13328,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,30/Sep/20 11:00 PM,30/Sep/20 11:01 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-296,,,,,{},,,,,"https://.....
+username
+password",,User profile is needed.,0|i00job:,,,,Party Club Sprint 1,,"1. Open the input URL.
+2. Use valid log in credentials.
+3. Search for another user profile.
+4.Click on the count of Followers.
+Expected result:
+The followers of the relevant user should be visible.
+",,,,,,,To Do
+REQ-3,SK02EX-296,12734,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 8:31 PM,30/Sep/20 11:00 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,Clicking on the count of Followers we can see the list of relevant users.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-131,,,,,,0|i00g1b:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-4,SK02EX-297,12735,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 8:33 PM,30/Sep/20 10:56 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,Clicking on the count of Following we can see the list of relevant users.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-131,,,,,,0|i00g1j:,,,,Party Club Sprint 1,,,,,,,,,To Do
+Following count of a relevant user,SK02EX-889,13327,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,30/Sep/20 10:56 PM,30/Sep/20 10:56 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-297,,,,,{},,,,,"https://.....
+username
+password",,User profile is needed.,0|i00jon:,,,,Party Club Sprint 1,,"1. Open the input URL.
+2. Use valid log in credentials.
+3. Search for another user profile.
+4.Click on the count of Following.
+Expected result:
+The following of the relevant user should be visible.",,,,,,,To Do
+Profile information overview,SK02EX-887,13325,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,30/Sep/20 10:34 PM,30/Sep/20 10:46 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-294,,,,,{},,,,,"https://.....
+username
+password",,Active user profile is needed.,0|i00jo7:,,,,Party Club Sprint 1,,"1. Open the input URL.
+2. Use valid credentials for log in.
+3. Search for another user profile.
+Expected result:
+User profile is opened and the page includes-
+Followers count.
+Following count.
+Users profile photo.
+Filter with their posts – All, Public and Private.",,,,,,,To Do
+REQ-2,SK02EX-294,12732,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 8:29 PM,30/Sep/20 10:34 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,"The page includes information about posts count, Followers count, Following count, Users profile photo, Filter with their posts – All, Public and Private.",,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-131,,,,,,0|i00g0v:,,,,Party Club Sprint 1,,,,,,,,,To Do
+PC Other users page,SK02EX-131,12569,Epic,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,24/Sep/20 9:36 PM,30/Sep/20 10:16 PM,01/Oct/20 10:21 PM,,,,,,,0,PartyClub,,"There is a page where we can see the information about other user profiles. The users do not have option to change their availability status, they are always available to the other users.",,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-11,,Other users page,To Do,,,,0|i00feb:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-1,SK02EX-293,12731,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 8:18 PM,30/Sep/20 10:13 PM,01/Oct/20 10:21 PM,,,,,,,0,PartyClub,,"We can access the other user profile pages using search field, the list of all available users in the platform if you are logged for the first time or clicking on the username from a public post.",,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-131,,,,,,0|i00g0n:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ7: The created post appears under the relevant post filter ,SK02EX-850,13288,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,30/Sep/20 7:50 PM,30/Sep/20 7:51 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,"There are two types of posts - 'private' and 'public'. 
+The filter gives you the opportunity to see only private posts, to see only public ones, and to see both types together.
+After creating a post, depending on what status the user has given to it, the post can be seen under the relevant category. 
+ ",,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-692,,,,,,0|i00jfz:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ6: The form has a text above,SK02EX-843,13281,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,30/Sep/20 7:27 PM,30/Sep/20 7:31 PM,01/Oct/20 9:45 PM,,,,,,,0,PartyClub,,"When a form is opened, a text appears  at the upper side of the form. 
+The text is : ' Post a picture to share with your awesome followers'.",,student2,,,,,,,,,,,,,,,,,SK02EX-845,,,,,,,,,,,,,,,,,,{},,SK02EX-692,,,,,,0|i00jef:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ4: Picture - field functionality,SK02EX-829,13267,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,30/Sep/20 5:39 PM,30/Sep/20 6:43 PM,01/Oct/20 9:34 PM,,,,,,,0,PartyClub,,"Upload picture field has two attributes:
+- drag and drop menu,
+- Browse button 
+Both of them are used for attaching a picture.",,student2,,,,,,,,,,,,,,,,,SK02EX-833,SK02EX-835,,,,,,,,,,,,,,,,,{},,SK02EX-692,,,,,,0|i00jbb:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ3: Picture field and the caption field are mandatory.,SK02EX-822,13260,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,30/Sep/20 4:46 PM,30/Sep/20 6:38 PM,01/Oct/20 9:29 PM,,,,,,,0,PartyClub,," Two of the fields in the New Post form are the caption field and the field for uploading picture. 
+ The New post cannot be posted without setting a caption and without uploading a photo. 
+  Both of the fields are required. ",,student2,,,,,,,,,,,,,,,,,SK02EX-825,SK02EX-826,,,,,,,,,,,,,,,,,{},,SK02EX-692,,,,,,0|i00j9r:,,,,Party Club Sprint 1,,,,,,,,,To Do
+PC Posts,SK02EX-343,12781,Epic,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 9:31 PM,30/Sep/20 6:11 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,"The user should be able to create New posts from their profile page or using the main menu. The same functionality should be called using both of the options.
+In addition the user should have an option to edit their already created posts.
+There are two post categories. Public – available to everybody, even not registered users of the platform. Private – you can see the user’s private posts only if you follow them and have a profile in the platform.
+",,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-3,,Posts,To Do,,,,0|i00gbr:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ 1: Access to the New Post form,SK02EX-706,13144,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,28/Sep/20 5:24 PM,30/Sep/20 4:20 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,"New Post form is used for creating a post. It can be opened in two different ways:
+
+-from the profile page / there is a New Post button / 
+-from the main menu / in the main menu there is a  New posts menu / ",,student2,,,,,,,,,,,,,,,,,SK02EX-707,SK02EX-709,,,,,,,,,,,,,,,,,{},,SK02EX-692,,,,,,0|i00ijz:,,,,Party Club Sprint 1,,,,,,,,,To Do
+"The New Post form has ""create post"" button",SK02EX-737,13175,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,28/Sep/20 6:46 PM,30/Sep/20 3:59 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-692,,,,,"created user: username - user1
+                      password - 1user",0|i00iqv:,,,,Party Club Sprint 1,,"1.Login as user1
+2.Go the the profile page and press Create Post button
+Expected result:
+->New Post form appears
+->In the form, Create Post button is displayed",,,,,,,To Do
+New post form has post caption field,SK02EX-721,13159,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,28/Sep/20 6:04 PM,30/Sep/20 3:59 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-692,,,,,"created user: username - user1
+                      password: 1user",0|i00inb:,,,,Party Club Sprint 1,,"1.As user1 login
+2.Go to the main manu
+3.Press ""New Posts"" field
+Expected result:
+->New post form is opened
+->New post form has a caption field",,,,,,,To Do
+REQ-5 Clicking on username or profile picture,SK02EX-401,12839,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 10:25 PM,29/Sep/20 11:37 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,Clicking on the username or profile picture from this list redirects to the profile of the user.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-392,,,,,,0|i00gon:,,,,Party Club Sprint 1,,,,,,,,,To Do
+Clickig on another user`s profile picture,SK02EX-811,13249,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,29/Sep/20 11:37 PM,29/Sep/20 11:37 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-401,,,,,{},,SK02EX-392,,,"Registered user
+Username: PartyClub
+Password: PartyClub123
+",,,0|i00j7b:,,,,Party Club Sprint 1,,"1. Log in
+2. Click on of profile picture of another user
+Expected result: The link redirects to the profile of the user .",,,,,,,To Do
+Clicking on username of another user,SK02EX-810,13248,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,29/Sep/20 11:35 PM,29/Sep/20 11:35 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-401,,,,,{},,SK02EX-392,,,"Registered user
+Username: PartyClub
+Password: PartyClub123
+",,,0|i00j73:,,,,Party Club Sprint 1,,"1. Log in
+2. Click on username of another user
+Expected result: The link redirects to the profile of the user .",,,,,,,To Do
+REQ-2: A list of all available posts of followed users,SK02EX-397,12835,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 10:20 PM,29/Sep/20 11:30 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,If the user already logged before and followed some users they are landed on the Homepage and see the list of all available posts of the followed users including their own if there are such.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-392,,,,,,0|i00gnr:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-1 First log,SK02EX-395,12833,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 10:20 PM,29/Sep/20 11:21 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,If the user logs for the first time they are landed on the Homepage and see the list of all available users in the platform.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-392,,,,,,0|i00gnb:,,,,Party Club Sprint 1,,,,,,,,,To Do
+What user sees after first log,SK02EX-808,13246,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,29/Sep/20 11:21 PM,29/Sep/20 11:21 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,If the user logs for the first time they are landed on the Homepage and see the list of all available users in the platform.,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-395,,,,,{},,SK02EX-392,,,"Registered user
+Username: PartyClub
+Password: PartyClub123",,,0|i00j6n:,,,,Party Club Sprint 1,,"1. Log in for first time
+2. Check if you are landed on Homepage
+Expected result: You are are landed on the Homepage and see the list of all available users in the platform.",,,,,,,To Do
+REQ-7: Password change,SK02EX-329,12767,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,26/Sep/20 9:13 PM,29/Sep/20 10:40 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,If the user change their password it should automatically kill all of the active sessions on all of the devices,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-320,,,,,,0|i00g8n:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-6: Login from many devices,SK02EX-328,12766,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,26/Sep/20 9:12 PM,29/Sep/20 10:23 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,The user can login simultaneously from many devices,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-320,,,,,,0|i00g8f:,,,,Party Club Sprint 1,,,,,,,,,To Do
+The user can login from many devices.,SK02EX-727,13165,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,28/Sep/20 6:33 PM,29/Sep/20 10:23 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-328,,,,,{},,SK02EX-320,,,"Registered user
+Username: PartyClub
+Password : PartyClub123",,,0|i00ion:,,,,Party Club Sprint 1,,"1.Open login page
+2. Fill username and password name with correct credentials
+3. Take other device and log in with the same username 
+Expected result:The user can login from many devices.",,,,,,,To Do
+Link to the registration form if the user has no account.,SK02EX-725,13163,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,28/Sep/20 6:27 PM,29/Sep/20 10:21 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,There is a link to the registration form if the user has no account. It redirects the user to create their account using the registration form.,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-325,,,,,{},,SK02EX-320,,,,,,0|i00io7:,,,,Party Club Sprint 1,,"1.Open home page
+2. Find and click on the link for not registered user
+Expected result: The link redirects the user to registration form page.",,,,,,,To Do
+REQ-3: Link to registration form,SK02EX-325,12763,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,26/Sep/20 9:11 PM,29/Sep/20 10:20 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,There is a link to the registration form if the user has no account. It redirects the user to create their account using the registration form.,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-320,,,,,,0|i00g7r:,,,,Party Club Sprint 1,,,,,,,,,To Do
+The login form has remember me checkbox,SK02EX-720,13158,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,28/Sep/20 6:04 PM,29/Sep/20 10:19 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,The login form has remember me checkbox. It is used if the user wants to remember their credentials and not need to fill them next time when login. They should be prefilled if the user opens the browser next time.,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-323,,,,,{},,SK02EX-320,,,"Registered user
+Username: PartyClub
+Password:PartyClub123",,,0|i00in3:,,,,Party Club Sprint 1,,"1.Open login page
+2. Fill username and password fields
+3. Check remeber me checkbox
+4.Click login button
+5. Leave the site
+6.Open login page again
+Expected result: Username and password fileds should be prefilled.",,,,,,,To Do
+REQ-2: Remember me checkbox,SK02EX-323,12761,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,26/Sep/20 9:10 PM,29/Sep/20 10:18 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,The login form has remember me checkbox. It is used if the user wants to remember their credentials and not need to fill them next time when login. They should be prefilled if the user opens the browser next time.,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-320,,,,,,0|i00g7b:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-1: Active sign in button ,SK02EX-322,12760,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,26/Sep/20 9:10 PM,29/Sep/20 10:16 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,Login form called Sign In has 2 fields and Sign in button – in the first field the user can fill username or email and the second one is for the password. The Sign in button is not active until some value is not filled in the fields mentioned above.,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-320,,,,,,0|i00g73:,,,,Party Club Sprint 1,,,,,,,,,To Do
+The Sign in button is active when username and password field are filled.,SK02EX-788,13226,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,29/Sep/20 7:28 PM,29/Sep/20 10:16 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,SK02EX-787,,,,,,,,,,,,,,,,,SK02EX-322,,,,,{},,SK02EX-320,,,,,,0|i00j27:,,,,Party Club Sprint 1,,"1.Open login page
+2. Fill username and password fields
+Expected result: The sign in button is active.",,,,,,,To Do
+The Sign in button is not active until username/password field is not filled.,SK02EX-787,13225,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,29/Sep/20 7:25 PM,29/Sep/20 10:15 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,SK02EX-715,,,,,,,,,,,,,,,,,SK02EX-322,,,,,{},,SK02EX-320,,,,,,0|i00j1z:,,,,Party Club Sprint 1,,"1.Open login page
+2. Fill password field
+3. Leave username/email field empty
+Expected result: The sign in button is not active.",,,,,,,To Do
+The Sign in button is not active until password field is not filled.,SK02EX-715,13153,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,28/Sep/20 5:57 PM,29/Sep/20 10:15 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-322,,,,,{},,SK02EX-320,,,,,,0|i00ilz:,,,,Party Club Sprint 1,,"1.Open login page
+2. Fill username field with username or email
+3. Leave password field empty
+Expected result: The sign in button is not active.",,,,,,,To Do
+REQ-1: Registration form,SK02EX-307,12745,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,26/Sep/20 8:58 PM,29/Sep/20 10:03 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,"Registration form has the following fields – username, email, password, confirm password, public info. The mockup has date of birth which is not true.",,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,29/Sep/20 10:03 PM;student2;mockupRegistrationFormFields.png;https://skillo.atlassian.net/secure/attachment/10065/mockupRegistrationFormFields.png,,{},,SK02EX-123,,,,,,0|i00g3r:,,,,Party Club Sprint 1,,,,,,,,,To Do
+The public info is visible to other users,SK02EX-799,13237,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,29/Sep/20 9:06 PM,29/Sep/20 9:31 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,The public info field contains free text with info about the user which is visible to other users,,student2,,,,,,,,,,,,,SK02EX-710,,,,,,,,,,,,,,,,,SK02EX-314,,,,,{},,SK02EX-123,,,www.ISkillo.com,,,0|i00j4n:,,,,Party Club Sprint 1,,"1.Open the page
+2.Check if you see other user`s public info
+Expected result: Public info is visible for other users.",,,,,,,To Do
+REQ-5: The public info field,SK02EX-314,12752,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,26/Sep/20 9:01 PM,29/Sep/20 9:06 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,The public info field contains free text with info about the user which is visible to other users,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-123,,,,,,0|i00g5b:,,,,Party Club Sprint 1,,,,,,,,,To Do
+The public info field accept letters,SK02EX-710,13148,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,28/Sep/20 5:37 PM,29/Sep/20 9:06 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,The public info field contains free text with info about the user which is visible to other users,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-314,,,,,{},,SK02EX-123,,,,,,0|i00ikv:,,,,Party Club Sprint 1,,"1.Open registration page
+2. Fill the public info field with letters
+Expected result: Public info field acept letters.",,,,,,,To Do
+REQ-4: Password policy,SK02EX-313,12751,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,26/Sep/20 9:00 PM,29/Sep/20 8:56 PM,01/Oct/20 9:42 PM,,,,,,,0,PartyClub,,There is password policy for the password field. Each password should contain at least 6 symbols including 1 big letter and 1 digit. Confirm password should match the password field value,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-123,,,,,,0|i00g53:,,,,Party Club Sprint 1,,,,,,,,,To Do
+The user provides correct username and password ,SK02EX-794,13232,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,29/Sep/20 8:37 PM,29/Sep/20 8:44 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,SK02EX-793,,,,,,,,,,,,,,,,,SK02EX-327,,,,,{},,SK02EX-320,,,,,"Registered user
+Username : PartyClub
+Password:PartyClub123",0|i00j3j:,,,,Party Club Sprint 1,,"1.Set correct username. 
+2. Set correct password.
+3. Click log in button.
+Expected result: User is logged in",,,,,,,To Do
+The user provides wrong username and password ,SK02EX-793,13231,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,29/Sep/20 8:34 PM,29/Sep/20 8:43 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,SK02EX-792,,,,,,,,,,,,,,,,,SK02EX-327,,,,,{},,SK02EX-320,,,,,"Registered user
+Username : PartyClub
+Password:PartyClub123",0|i00j3b:,,,,Party Club Sprint 1,,"1.Set incorrect username. 
+2. Set incorrect password.
+3. Click log in button.
+Expected result: Error message ""Wrong username or password""appears.",,,,,,,To Do
+The user provides wrong username,SK02EX-792,13230,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,29/Sep/20 8:32 PM,29/Sep/20 8:42 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,SK02EX-167,,,,,,,,,,,,,,,,,SK02EX-327,,,,,{},,SK02EX-320,,,,,"Registered user
+Username : PartyClub
+Password:PartyClub123",0|i00j33:,,,,Party Club Sprint 1,,"1.Set incorrect username. 
+2. Set correct password.
+3. Click log in button.
+Expected result: Error message ""Wrong username or password""appears.",,,,,,,To Do
+REQ-5: Wrong credentials,SK02EX-327,12765,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,26/Sep/20 9:12 PM,29/Sep/20 8:37 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,If the user provides wrong credentials a message: Wrong username or password appears,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-320,,,,,,0|i00g87:,,,,Party Club Sprint 1,,,,,,,,,To Do
+ REQ-3: Email validation,SK02EX-311,12749,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,26/Sep/20 8:59 PM,29/Sep/20 8:26 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,The email field has validation if the filled email address is already taken. If the email is taken it cannot be used for another registration.,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-123,,,,,,0|i00g4n:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-8: Forgotten password,SK02EX-330,12768,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,26/Sep/20 9:14 PM,29/Sep/20 6:56 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,Forgot password will be implemented on a later stage,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-320,,,,,,0|i00g8v:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-5: ,SK02EX-303,12741,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,26/Sep/20 8:52 PM,29/Sep/20 6:46 PM,01/Oct/20 9:34 PM,,,,,,,0,PartyClub,," In the footer user can see the version of the website and the technologies used to build this platform
+
+",,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-88,,,,,,0|i00g2v:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-7: A not registered user,SK02EX-305,12743,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,26/Sep/20 8:54 PM,29/Sep/20 6:44 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,A not registered user cannot see information about the registered user,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-88,,,,,,0|i00g3b:,,,,Party Club Sprint 1,,,,,,,,,To Do
+"REQ-7: GDPR, cookies and privacy policy – to be added",SK02EX-317,12755,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,26/Sep/20 9:02 PM,29/Sep/20 6:39 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,"GDPR, cookies and privacy policy – to be added",,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-123,,,,,,0|i00g5z:,,,,Party Club Sprint 1,,,,,,,,,To Do
+Verify what information a not registered cannot see about a registered one,SK02EX-616,13054,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,27/Sep/20 8:55 PM,28/Sep/20 8:42 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-305,,,,,{},,,,,https://partyclubtest.com,,,0|i00hzz:,,,,Party Club Sprint 1,,"1. Use the input address.
+2. Find existing profile and try to see any information about it.
+Expected result - A not registered user cannot see information about the registered user.",,,,,,,To Do
+Check where the logo of the product is located and can it be used,SK02EX-614,13052,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,27/Sep/20 8:52 PM,28/Sep/20 8:34 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-304,,,,,{},,,,,https://partyclubtest.com,,,0|i00hzj:,,,,Party Club Sprint 1,,"1. Use the input address.
+2..Find the logo and try to use it.
+Expected result - The The logo of the product must be located upper left and the user can click on it to navigate to the homepage.",,,,,,,To Do
+Check what user can see in the footer,SK02EX-612,13050,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,27/Sep/20 8:45 PM,28/Sep/20 8:16 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK02EX-303,,,,,{},,,,,https://partyclubtest.com,,,0|i00hz3:,,,,Party Club Sprint 1,,"1. Use the input address
+2.Go to the footer of the address
+Expected result - In the footer user must see the version of the website and the technologies used to build this platform.",,,,,,,To Do
+The user should have an option to edit their already created posts,SK02EX-711,13149,Test,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,28/Sep/20 5:42 PM,28/Sep/20 5:42 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-692,,,,,"user1  created with ""1user"" password
+User 1 has created a post
+'edit' button and link created",0|i00il3:,,,,Party Club Sprint 1,,"1.Go to the user's post
+2.Press ""edit"" button
+Expected result: The post is opened for edition",,,,,,,To Do
+ PC Available functionality without login ,SK02EX-304,12742,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,26/Sep/20 8:54 PM,28/Sep/20 4:24 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,"The logo of the product is located upper left and the user can click on it to navigate to the homepage
+",,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-88,,,,,,0|i00g33:,,,,Party Club Sprint 1,,,,,,,,,To Do
+Available functionality without login ,SK02EX-88,12526,Epic,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,24/Sep/20 9:31 PM,28/Sep/20 4:23 PM,01/Oct/20 10:21 PM,,,,,,,0,PartyClub,,_There is some limited functionality user can use without registration in order to have a chance to play with the product and register later. It is described below._,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-9,, PC Available functionality without login,To Do,,,,0|i00f4z:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-3: ,SK02EX-301,12739,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,26/Sep/20 8:48 PM,27/Sep/20 8:35 PM,01/Oct/20 10:20 PM,,,,,,,0,PartyClub,,The user can see the information about the author and creation date for each post,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-88,,,,,,0|i00g2f:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-2:,SK02EX-137,12575,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,24/Sep/20 9:37 PM,27/Sep/20 8:22 PM,01/Oct/20 10:20 PM,,,,,,,0,PartyClub,, A not registered user cannot comment or like any post,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-88,,,,,,0|i00fej:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-1,SK02EX-5,12443,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Highest,,student2,hjusein.tjurkmen,hjusein.tjurkmen,24/Sep/20 8:07 PM,27/Sep/20 8:07 PM,01/Oct/20 10:15 PM,,,,,,,0,PartyClub,,"A not registered user can see all of the public posts, all comments and count of likes/dislikes per post",,hjusein.tjurkmen,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-88,,,,,,0|i00enj:,,,,Party Club Sprint 1,,,,,,,,,To Do
+PC Search field,SK02EX-361,12799,Epic,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 10:01 PM,27/Sep/20 6:32 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,The user can search for other users using the search field available in the header.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-9,,Search field,To Do,,,,0|i00gfr:,,,,Party Club Sprint 1,,,,,,,,,To Do
+PC Live comments on posts,SK02EX-358,12796,Epic,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 9:56 PM,27/Sep/20 6:31 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,The revolutionary feature of this platform are the live comments on posts. The user can comment on some posts and their comments become immediately available to the other users who opened the post at this moment.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-4,,Live comments on posts,To Do,,,,0|i00gf3:,,,,Party Club Sprint 1,,,,,,,,,To Do
+PC Edit Profile information,SK02EX-324,12762,Epic,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Medium,,student2,student1,student1,26/Sep/20 9:10 PM,27/Sep/20 6:31 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,"The user should be able to manage their profile information and change their password, username or mail from their profile page.
+
+",,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-14,,Edit Profile information,To Do,,,,0|i00g7j:,,,,Party Club Sprint 1,,,,,,,,,To Do
+PC Profile page,SK02EX-134,12572,Epic,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,24/Sep/20 9:37 PM,27/Sep/20 6:30 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,_The user should have an option to see and check information about their own profile. Also on the profile page the user is able to manage their posts._,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-13,,Profile page,To Do,,,,0|i00fez:,,,,Party Club Sprint 1,,,,,,,,,To Do
+PC Homepage after login,SK02EX-127,12565,Epic,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,24/Sep/20 9:36 PM,27/Sep/20 6:29 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,_After registration the user should login in order to use the full functionality of the platform._,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-6,,Homepage after login,To Do,,,,0|i00fdf:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-9,SK02EX-384,12822,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 10:09 PM,26/Sep/20 10:09 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,If no results are found nothing is shown.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-361,,,,,,0|i00gkv:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-8,SK02EX-382,12820,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 10:08 PM,26/Sep/20 10:08 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,The user can search using regular expressions.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-361,,,,,,0|i00gkf:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-7,SK02EX-380,12818,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 10:08 PM,26/Sep/20 10:08 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,Unfollowing some user dynamically hides their posts if you are on the homepage where the posts are listed.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-361,,,,,,0|i00gjz:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-6,SK02EX-378,12816,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 10:07 PM,26/Sep/20 10:07 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,Clicking Follow/Unfollow – follows or unfollows the relevant user.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-361,,,,,,0|i00gjj:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-5,SK02EX-377,12815,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 10:06 PM,26/Sep/20 10:06 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,Clicking on the profile picture or name opens the user’s profile page.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-361,,,,,,0|i00gjb:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-4,SK02EX-376,12814,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 10:05 PM,26/Sep/20 10:05 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,"The results shown contains the profile picture, the name of the user and Follow/Unfollow button.",,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-361,,,,,,0|i00gj3:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-3,SK02EX-371,12809,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 10:04 PM,26/Sep/20 10:04 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,Search field is working using filter as you type functionality. It triggers new search on each change. ,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-361,,,,,,0|i00ghz:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-2,SK02EX-367,12805,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 10:03 PM,26/Sep/20 10:03 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,Clicking in the search field and pressing space shows all available users.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-361,,,,,,0|i00gh3:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-1,SK02EX-363,12801,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 10:03 PM,26/Sep/20 10:03 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,The search field is available only for the logged users.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-361,,,,,,0|i00gg7:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-2,SK02EX-360,12798,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 9:59 PM,26/Sep/20 9:59 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,Once the user write a comment it becomes immediately available to the users who opened this post.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-358,,,,,,0|i00gfj:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-1,SK02EX-359,12797,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 9:58 PM,26/Sep/20 9:58 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,Each logged user can write comments to the public and private posts of the user they are following.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-358,,,,,,0|i00gfb:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-11,SK02EX-355,12793,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 9:46 PM,26/Sep/20 9:46 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,"Format of the pictures and size – no limitation about picture format. Maximum file size is 10MB.
+",,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-343,,,,,,0|i00gef:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-10,SK02EX-354,12792,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 9:45 PM,26/Sep/20 9:45 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,Length of the text – max 100 symbols.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-343,,,,,,0|i00ge7:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-9,SK02EX-353,12791,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 9:44 PM,26/Sep/20 9:44 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,They can change the status of the post and delete it. Also can comment/like/dislike it.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-343,,,,,,0|i00gdz:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-8,SK02EX-352,12790,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 9:43 PM,26/Sep/20 9:43 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,The posts created by the user can be changed after that by clicking on them.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-343,,,,,,0|i00gdr:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-7,SK02EX-351,12789,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 9:42 PM,26/Sep/20 9:42 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,"Once the user creates their post it appears under the relevant post filter – All, Public, Private.",,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-343,,,,,,0|i00gdj:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-6,SK02EX-350,12788,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 9:41 PM,26/Sep/20 9:41 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,The form has a text above: Post a picture to share with your awesome followers.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-343,,,,,,0|i00gdb:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-5,SK02EX-349,12787,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 9:39 PM,26/Sep/20 9:39 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,Clicking Esc key closes the form.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-343,,,,,,0|i00gd3:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-4,SK02EX-348,12786,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 9:38 PM,26/Sep/20 9:38 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,Upload picture field has drag and drop functionality available. You can upload picture using Browse button also.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-343,,,,,,0|i00gcv:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-3,SK02EX-347,12785,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 9:37 PM,26/Sep/20 9:37 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,Upload picture field and the caption field are required.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-343,,,,,,0|i00gcn:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-2,SK02EX-346,12784,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 9:36 PM,26/Sep/20 9:36 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,"New posts form has the following attributes: uploading picture field, post caption field, post status switch – private or public, create post button and X button to close the form.",,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-343,,,,,,0|i00gcf:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-1,SK02EX-345,12783,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 9:33 PM,26/Sep/20 9:33 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,If you click the New posts menu from the main menu or New posts button from their profile page a New posts form is opened.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-343,,,,,,0|i00gc7:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-8,SK02EX-341,12779,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Medium,,student2,student1,student1,26/Sep/20 9:20 PM,26/Sep/20 9:20 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,Email confirmation should be sent after change of the email. Will be implemented on a later stage.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-324,,,,,,0|i00gbb:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-7,SK02EX-340,12778,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Medium,,student2,student1,student1,26/Sep/20 9:19 PM,26/Sep/20 9:19 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,The same UI validations as in the registration form are applied.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-324,,,,,,0|i00gb3:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-6,SK02EX-339,12777,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Medium,,student2,student1,student1,26/Sep/20 9:18 PM,26/Sep/20 9:18 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,If the user leaves some of the fields blank and click save these fields are taking the last valid information.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-324,,,,,,0|i00gav:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-5,SK02EX-338,12776,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Medium,,student2,student1,student1,26/Sep/20 9:17 PM,26/Sep/20 9:17 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,Once the user click save all of the modified information is changed. No confirmation is needed.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-324,,,,,,0|i00gan:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-4,SK02EX-337,12775,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Medium,,student2,student1,student1,26/Sep/20 9:17 PM,26/Sep/20 9:17 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,If the user wants to change their password the same password policy as during the registration should be followed.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-324,,,,,,0|i00gaf:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-3,SK02EX-334,12772,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Medium,,student2,student1,student1,26/Sep/20 9:16 PM,26/Sep/20 9:16 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,"There is a validation for taken username and email and the user cannot save the changed information if the username or mail is already taken.
+The message is username is already taken if it is for the username otherwise is the email is already taken.",,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-324,,,,,,0|i00g9r:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-2,SK02EX-333,12771,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Medium,,student2,student1,student1,26/Sep/20 9:15 PM,26/Sep/20 9:15 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,"The Modify Your Profile form has the following fields: Username, Email, Password, Confirm password, Public info. The information in any of these fields could be changed. In addition the user can change their profile picture.",,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-324,,,,,,0|i00g9j:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-1,SK02EX-332,12770,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,Medium,,student2,student1,student1,26/Sep/20 9:14 PM,26/Sep/20 9:14 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,The user can change their information using Modify Your Profile form available when clicking a button near their profile picture on their profile page.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-324,,,,,,0|i00g9b:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-5,SK02EX-315,12753,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 9:01 PM,26/Sep/20 9:01 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,"Clicking on your posts they are opened in a popup form and there is an option to comment, like, change their public/private status or delete them.",,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-134,,,,,,0|i00g5j:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-4,SK02EX-312,12750,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 9:00 PM,26/Sep/20 9:00 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,The user is allowed to Upload profile picture which will be used like avatar for the other users. When click on the place for the picture a standard form for uploading files from your computer appears. Once you choose your picture it becomes available to the other users.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-134,,,,,,0|i00g4v:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-3,SK02EX-310,12748,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 8:59 PM,26/Sep/20 8:59 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,In addition there is a button New post which is used to create new posts. Clicking on the button shows the New posts form.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-134,,,,,,0|i00g4f:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-2,SK02EX-308,12746,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 8:58 PM,26/Sep/20 8:58 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,The profile page has the whole functionality of the other users profile page but the information shown is for our own profile.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-134,,,,,,0|i00g3z:,,,,Party Club Sprint 1,,,,,,,,,To Do
+REQ-1,SK02EX-306,12744,Story,To Do,SK02EX,sk02Extended,software,hjusein.tjurkmen,,,High,,student2,student1,student1,26/Sep/20 8:56 PM,26/Sep/20 8:56 PM,01/Oct/20 11:43 PM,,,,,,,0,PartyClub,,The user can see their own profile only after login using the menu Profile.,,student1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,SK02EX-134,,,,,,0|i00g3j:,,,,Party Club Sprint 1,,,,,,,,,To Do
+Unfollow the owner from an opened posts,SK01EX-2300,12438,Test,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,06/Sep/20 12:56 PM,06/Sep/20 12:56 PM,01/Oct/20 11:42 PM,,,,,Posts,,0,Team2,,Tests if the user can unfollow an owner of a post from an opened post,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK01EX-120,,,,,{},,,,,,,The user must be logged in and followed an owner of a post,0|i00enf:,,,,,," - Click on a random post
+ - Click on the ""Unfollow"" button in the opened post
+
+Expected result: The owner of the post is Unfollowed and a green confirmation message ""You unfollowed ...."" appears",,,,,,,To Do
+Verify that you have option to dislike the same post with pressing the like button again.,SK01EX-752,10890,Test,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,20/Jun/20 3:54 PM,01/Jul/20 6:48 PM,01/Oct/20 11:43 PM,,,,,Posts,,0,Team2,,,,student2,,,,,,,,,,,,,SK01EX-302,,,,SK01EX-958,SK01EX-2296,SK01EX-2297,,,,,,,,,,,SK01EX-157,SK01EX-751,,,,{},,,,,"Email:Testuser1@abv.bg
+password:Testuser1",,successfully login ,0|i0053v:,,,,,,"1 .Go to homepage
+2. Search the post which you like it
+3. Then dislike it  with thumb down button
+EX: Post is dislike and show in to the post
+
+
+Check in to the database iskillo that this dislike from you exist",,,,,,,To Do
+"Confirmation that the available posts can be commented, liked or disliked",SK01EX-217,10355,Test,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,14/Jun/20 12:26 PM,29/Jun/20 5:17 PM,01/Oct/20 11:43 PM,,,,,Homepage,Posts,0,Team2,,,,student2,,,,,,,,,,,,,,,,,SK01EX-544,SK01EX-803,SK01EX-1163,SK01EX-1585,SK01EX-1824,SK01EX-1378,SK01EX-2070,SK01EX-1374,,,,,,SK01EX-119,,,,,{},,,,,,,The user must be logged in and must ha have opened available post,0|i001tn:,,,,,,"- Comment, like or dislike the available post
+Expected result:
+The post can be commented, liked or disliked",,,,,,,To Do
+243 v. 4300,SK01EX-2201,12339,Test Case Execution,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,28/Jun/20 1:17 AM,28/Jun/20 1:17 AM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,SK01EX-745,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00e1f:,,,,,,,,,,,,,To Do
+257 v. 4300,SK01EX-2197,12335,Test Case Execution,SKIPPED,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,28/Jun/20 1:04 AM,28/Jun/20 1:04 AM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00e0j:,,,,,,,,,,,,,To Do
+260 v. 4300,SK01EX-2194,12332,Test Case Execution,SKIPPED,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,28/Jun/20 12:55 AM,28/Jun/20 12:55 AM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,SK01EX-729,SK01EX-261,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00dzv:,,,,,,,,,,,,,To Do
+260,SK01EX-729,10867,Test Case Execution,SKIPPED,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,20/Jun/20 2:51 PM,28/Jun/20 12:55 AM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,SK01EX-261,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i004yr:,,,,,,,,,,,,,To Do
+267  v. 4300,SK01EX-2191,12329,Test Case Execution,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,28/Jun/20 12:25 AM,28/Jun/20 12:25 AM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,SK01EX-711,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00dz7:,,,,,,,,,,,,,To Do
+278  v. 4300,SK01EX-2189,12327,Test Case Execution,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,28/Jun/20 12:14 AM,28/Jun/20 12:14 AM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00dyr:,,,,,,,,,,,,,To Do
+281-5 Safari  v. 4300,SK01EX-2187,12325,Test Case Execution,SKIPPED,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,28/Jun/20 12:06 AM,28/Jun/20 12:07 AM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,SK01EX-653,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00dyb:,,,,,,,,,,,,,To Do
+281-5 Safari,SK01EX-653,10791,Test Case Execution,SKIPPED,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,20/Jun/20 10:53 AM,28/Jun/20 12:06 AM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i004hv:,,,,,,,,,,,,,To Do
+"""Dislikes"" functionality is not visible",SK01EX-2119,12257,Bug,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,27/Jun/20 10:18 AM,27/Jun/20 10:18 AM,01/Oct/20 11:43 PM,,2020.3.2.4300,,,Homepage,,0,4300,Team2,,Chrome,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00dj7:,,,4 - Normal,,,"1. Go to url.
+2. Click on a random post.
+3. See the count of Likes and Dislikes of the post.
+
+Expected result: The user should see the count of Likes and Dislikes of the post.
+Actual result: The count of Dislikes is not visible, it is missing.",,,,,,,To Do
+282 v4300,SK01EX-2059,12197,Test Case Execution,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,24/Jun/20 6:30 PM,24/Jun/20 6:30 PM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00d5v:,,,,,,,,,,,,,To Do
+210 v4300,SK01EX-2049,12187,Test Case Execution,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,24/Jun/20 6:20 PM,24/Jun/20 6:27 PM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00d3n:,,,,,,,,,,,,,To Do
+Unregistered user cant see comments of public posts. ,SK01EX-2057,12195,Bug,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,24/Jun/20 6:26 PM,24/Jun/20 6:26 PM,01/Oct/20 11:43 PM,,2020.3.2.4300,,,,,0,Team2,,REQ-1 from the specification ,"http://training.skillo-bg.com:4200 ver. Version: 2020.3.1.4200
+operating system: Windows 10 Professional 
+Google Chrome - Version 83.0.4103.106 (Official Build) (64-bit)
+",student2,,,,,,,,,,SK01EX-2049,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00d5f:,,,4 - Normal,,," 1. Go to url from prerequisites
+Expected result: All public posts should be visible
+2. Choose a random public post and click on it
+Expected result:
+Post is open and you can see comments of other users
+Actual results: You can see the posts, but you cant see comments ",,,,,,,To Do
+249 V 4300,SK01EX-2032,12170,Test Case Execution,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,24/Jun/20 6:11 PM,24/Jun/20 6:11 PM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00czv:,,,,,,,,,,,,,To Do
+303 Unfollow  - v. 4300,SK01EX-1436,11574,Test Case Execution,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,22/Jun/20 9:07 PM,24/Jun/20 4:30 PM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,SK01EX-1370,,,,SK01EX-1380,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i009bn:,,,,,,,,,,,,,To Do
+303 - unfollow - HEISENBUG  !!!,SK01EX-1380,11518,Bug,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,22/Jun/20 6:16 PM,24/Jun/20 4:30 PM,01/Oct/20 11:43 PM,,2020.3.1.4200,2020.3.2.4300,,Follow,,0,Team2,,"When you try to unfollow some users from your homepage some times you unfollow successfully some times not.  I thing that this is HEISENBUG. Even that you refresh the page or go back to your homepage, results are different every time.","[http://training.skillo-bg.com:4200|http://training.skillo-bg.com:4200/] ver. Version: 2020.3.1.4200 and 2020.3.1.4300
+operating system: Windows 10 Professional 
+Google Chrome - Version 83.0.4103.106 (Official Build) (64-bit)",student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,22/Jun/20 6:20 PM;student2;Untitled.png;https://skillo.atlassian.net/secure/attachment/10036/Untitled.png,,{},,,,,,,,0|i008z7:,,,2 - Critical,,,"1. Open URL http://training.skillo-bg.com:4200
+2. Go to the login form
+3. Input credentials and login
+4. Redirect to the Homepage
+5. Unfollow some user
+6. Go to the homepage or pess F5  to refresh tthe page  
+Expexted result:
+You must unfolowed that user 
+Act.r: Some times you sucssesfuly nfollowed some times not. See the attached pictures   ",,,,,,,To Do
+181,SK01EX-1940,12078,Test Case Execution,SKIPPED,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,24/Jun/20 3:32 PM,24/Jun/20 3:32 PM,01/Oct/20 11:43 PM,,,,,,,0,4300,Team2,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00cff:,,,,,,,,,,,,,To Do
+"CLONE - On the Homepage, you can click on the available posts from the list to see them, comment on it, like and dislike",SK01EX-1931,12069,Test,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student5,student5,24/Jun/20 3:25 PM,24/Jun/20 3:28 PM,01/Oct/20 11:43 PM,,,,,Posts,,0,,,,,student5,,,,,,,,,,,,,SK01EX-176,SK01EX-174,,,SK01EX-668,SK01EX-672,SK01EX-1088,SK01EX-1091,SK01EX-1134,SK01EX-1260,SK01EX-1265,SK01EX-1490,SK01EX-1694,SK01EX-1697,SK01EX-1926,SK01EX-1934,,,,,,,{},,SK01EX-21,,,,,Successful login and landed to your homepage,0|i00cdf:,,,,,,"* See your homepage. There must be all available post on it including your own 
+* Chose one post and click on it 
+
+Expected results: 
+This particular post must open and you can see post and all comments, likes or dislikes 
+
+* Click on the dislike button 
+Expected result: 
+
+The dislike must be stored in to the database and to be available to be seen from other users",,,,,,,To Do
+176,SK01EX-1926,12064,Test Case Execution,SKIPPED,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,24/Jun/20 3:16 PM,24/Jun/20 3:25 PM,01/Oct/20 11:43 PM,,,,,,,0,4300,Team2,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00ccb:,,,,,,,,,,,,,To Do
+"On the Homepage, you can click on the available posts from the list to see them, coment on it, like and dislike",SK01EX-174,10312,Test,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,13/Jun/20 1:39 PM,24/Jun/20 3:25 PM,01/Oct/20 11:43 PM,,,,,Posts,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,SK01EX-406,SK01EX-432,SK01EX-436,SK01EX-445,SK01EX-631,SK01EX-1050,SK01EX-1786,,,,,,,,,,,,{},,SK01EX-21,,,,,"successful login and landed to your homepage, the user must have followed other users",0|i001k3:,,,,,,"* See your homepage. There must be all available post on it including your own 
+* Chose one post and click on it
+
+Expected results:
+
+This particular post must open and you can see post and all comments, likes or dislikes
+
+* Click on the comment field and leave some comment
+
+Expected result:   
+
+The comment must be stored in to the database and to be available to be seen from other users ",,,,,,"24/Jun/20 11:29 AM;student2;Нина: добавих prerequisite, че потребителя трябва да е последвал други потребители",To Do
+Dislike button by the open post malfunction,SK01EX-1091,11229,Bug,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,21/Jun/20 11:12 PM,24/Jun/20 3:25 PM,01/Oct/20 11:43 PM,,2020.3.1.4200,,2020.3.1.4200,Posts,,0,Team2,,"After clicking the Dislike button by the open post, the system do not save the changes.",,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00777:,,,3 - Major,,,"1.Login
+2. Chose a post, then dislike the pots of user ""Quinn Guevara"".
+- the dislike button turns red
+3. Go to database
+Expected result: Show some record of disliked posts
+Actual result: No tabled, columns or any record of dislikes",,,,,,,To Do
+"On the Homepage, you can click on the available posts from the list to see them, comment on it, like and dislike",SK01EX-175,10313,Test,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,13/Jun/20 1:43 PM,24/Jun/20 3:25 PM,01/Oct/20 11:43 PM,,,,,Posts,,0,Team2,,,,student2,student3,,,,,,,,,,,,,SK01EX-174,SK01EX-176,SK01EX-1931,SK01EX-1690,SK01EX-1922,,,,,,,,,,,,,,,,,{},,SK01EX-21,,,,,Successful login and landed to your homepage,0|i001kb:,,,,,,"* See your homepage. There must be all available post on it including your own 
+* Chose one post and click on it Expected results: 
+
+Expected result:
+This particular post must open and you can see post and all comments, likes or dislikes 
+
+* Click on to like button
+
+ Expected result: 
+Your like must be stored in to the database and to be available to be seen from other users",,,,,,20/Jun/20 11:55 AM;student3;DUPLICATES with 174;,To Do
+"On the Homepage, you can click on the available posts from the list to see them, comment on it, like and dislike",SK01EX-176,10314,Test,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,13/Jun/20 1:45 PM,24/Jun/20 3:25 PM,01/Oct/20 11:43 PM,,,,,Posts,,0,,,,,student2,,,,,,,,,,,,,,SK01EX-174,,,SK01EX-668,SK01EX-672,SK01EX-1088,SK01EX-1091,SK01EX-1134,SK01EX-1260,SK01EX-1265,SK01EX-1490,SK01EX-1694,SK01EX-1697,SK01EX-1926,,,,,,,,{},,SK01EX-21,,,,,Successful login and landed to your homepage,0|i001kj:,,,,,,"* See your homepage. There must be all available post on it including your own 
+* Chose one post and click on it 
+
+Expected results: 
+This particular post must open and you can see post and all comments, likes or dislikes 
+
+* Click on the dislike button 
+Expected result: 
+
+The dislike must be stored in to the database and to be available to be seen from other users",,,,,,,To Do
+"If the user already logged before and followed some users they are landed on the Homepage, and must can click on the available posts in to a list to see them with all coments",SK01EX-173,10311,Test,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,13/Jun/20 1:27 PM,24/Jun/20 3:07 PM,01/Oct/20 11:43 PM,,,,,Posts,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,SK01EX-1049,SK01EX-1094,SK01EX-1286,SK01EX-1688,SK01EX-1918,,,,,,,,,,,,,,{},,SK01EX-21,,,"
+
+ ",,Successfully login and landed to a homepage ,0|i001jv:,,,,,,"* See your homepage. There must be all available post on it including your own 
+* Chose one post and click on it
+
+Expected results
+This particular post must open and you can see post and all comments, likes or dislikes",,,,,,,To Do
+Users own posts are not visible on the Homepage,SK01EX-1864,12002,Bug,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,24/Jun/20 1:38 PM,24/Jun/20 1:38 PM,01/Oct/20 11:43 PM,,2020.3.2.4300,,,Posts,,0,4300,Team2,,"Chrome, Firefox",student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00byj:,,,4 - Normal,,,"1. Go to url
+2. Log in in the platform with valid credentials
+3. See the available posts on the Homepage.
+
+Expected result: The user must see all available posts of the followed users, including his/her own posts
+Actual result: The user's ows posts are not visible on the homepage",,,,,,,To Do
+"If the user already logged before and followed some users they are landed on the Homepage, and must see all available posts from the followers. ",SK01EX-128,10266,Test,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,10/Jun/20 8:42 PM,24/Jun/20 1:38 PM,01/Oct/20 11:43 PM,,,,,Posts,,0,Team2,,,,student2,,,,,,,,,,,,,SK01EX-173,,,,SK01EX-1127,SK01EX-1862,SK01EX-1864,,,,,,,,,,,,,,,,{},,,,,,,To have valid account,0|i001az:,,,,,,"1. Login successful in your profile 
+2. It must redirect you to directly to Home Page
+
+Expected result:
+
+On the Homepage, you must see the list of all available posts of the followed users including your own",,,,,,10/Jun/20 10:58 PM;student2;V.Gerov - Нанесох малко корекций в test case ,To Do
+ДА СЕ ИЗТРИЕ - НЕВАЛИДЕН!,SK01EX-1794,11932,Bug,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,24/Jun/20 11:51 AM,24/Jun/20 12:46 PM,01/Oct/20 11:43 PM,,2020.3.2.4300,,,Registration,,0,4300,Team2,,Chrome,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00biz:,,,3 - Major,,,,,,,,,,To Do
+131,SK01EX-1817,11955,Test Case Execution,SKIPPED,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,24/Jun/20 12:21 PM,24/Jun/20 12:21 PM,01/Oct/20 11:43 PM,,,,,,,0,4300,Team2,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00bo3:,,,,,,,,,,,,,To Do
+Additional field Date of birth in the Registration form is added,SK01EX-1806,11944,Bug,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,24/Jun/20 12:06 PM,24/Jun/20 12:06 PM,01/Oct/20 11:43 PM,,2020.3.2.4300,,,Registration,,0,4300,Team2,,Chrome,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00bln:,,,4 - Normal,,,"1. go to URL
+2. Click on the Register button
+
+Expected result: Registration form with username, e-mail, password, confirm pasword, public info must be shown
+Actual result: There is additional field Date of birth in the Registration form
+
+",,,,,,,To Do
+Creation of a new public post make a double identical posts in public mode at the same time ,SK01EX-1684,11822,Bug,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,23/Jun/20 8:55 PM,23/Jun/20 9:02 PM,01/Oct/20 11:43 PM,,2020.3.2.4300,,,New post,,0,Team2,,A new created public post is not public but private,"Chrome, Firefox, IE, Egde",student2,,,,,,,,,,,,,SK01EX-679,,,,SK01EX-1428,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00auj:,,,2 - Critical,,,"1. Load the URL
+2. Sign in with valid username and password
+3. click on the ""New post"" field
+4. Upload a pic with the ""Browse"" button
+5. Add a comment
+6. Select the ""public"" option for the post
+7. Click on the ""Submit"" button
+
+Expected result: a new public post should be created
+Actual result: A two identical posts was created.",,,,,,,To Do
+279 v 4300 ,SK01EX-1687,11825,Test Case Execution,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,23/Jun/20 9:00 PM,23/Jun/20 9:00 PM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00av7:,,,,,,,,,,,,,To Do
+289  v 4300,SK01EX-1672,11810,Test Case Execution,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,23/Jun/20 8:37 PM,23/Jun/20 8:37 PM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00arv:,,,,,,,,,,,,,To Do
+291 - v 4300,SK01EX-1604,11742,Test Case Execution,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,23/Jun/20 7:06 PM,23/Jun/20 7:06 PM,01/Oct/20 11:43 PM,,,,,,,0,4300,Team2,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00acr:,,,,,,,,,,,,,To Do
+Clicking Esc key from keyboard on the new post opened must close the form of new post,SK01EX-798,10936,Bug,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,21/Jun/20 2:06 AM,23/Jun/20 7:06 PM,01/Oct/20 11:43 PM,,2020.3.1.4200,2020.3.2.4300,,New post,,0,Team2,,Clicking Esc key from keyboard or pressing the X button on the new post opened must close the form of new post. Esc key from keyboard dos not work and there is missing X button. Please see the attached file ,"http://training.skillo-bg.com:4200 ver. Version: 2020.3.1.4200
+operating system: Windows 10 Professional 
+Google Chrome - Version 83.0.4103.106 (Official Build) (64-bit)
+",student2,,,,,,,,,,SK01EX-290,,,,,,,SK01EX-1604,,,,,,,,,,,,,,,,,,{},,SK01EX-52,,,,,,0|i005e3:,,,1 - Blocker,,,"1. Go to url http://training.skillo-bg.com:4200
+2. Successfully login in with valid account 
+Username: Testuser1@abv.bg 
+Password: Testuser1
+
+ExR: User is Redirected to Homepage 
+3. Click on menu Profile in the Header ExR: User is Redirected to his own profile page 
+4. Click on new post button in the header 
+5. Press Esc button from the keyboard
+Exp.R. The form must close 
+Act.R: ti dosnt work  ",,,,,,,To Do
+263 - v 4300,SK01EX-1591,11729,Test Case Execution,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,23/Jun/20 6:48 PM,23/Jun/20 6:48 PM,01/Oct/20 11:43 PM,,,,,,,0,4300,Team2,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00a9v:,,,,,,,,,,,,,To Do
+794 v 4300,SK01EX-1586,11724,Test Case Execution,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,23/Jun/20 6:41 PM,23/Jun/20 6:41 PM,01/Oct/20 11:43 PM,,,,,,,0,4300,Team2,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00a8r:,,,,,,,,,,,,,To Do
+ Dislike with thumb down button in to the post doesn't work ,SK01EX-761,10899,Bug,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,20/Jun/20 4:19 PM,23/Jun/20 6:39 PM,01/Oct/20 11:43 PM,,2020.3.1.4200,2020.3.2.4300,,Posts,,0,Team2,,"When you try to dislike some post with the thumb down button it wont work. After you press it, the message appear ""Post disliked"", but after you refresh the page it gone.","site version Version: 2020.3.1.4200
+Operating system: windows 10 professional 
+Browser: Google Chrome Google Version 83.0.4103.106 (Official Build) (64-bit)",student2,,,,,,,,,,SK01EX-119,SK01EX-1579,SK01EX-1585,,,,,,,,,,,,,,,,,,,,,20/Jun/20 4:18 PM;student2;When press dislike button.png;https://skillo.atlassian.net/secure/attachment/10013/When+press+dislike+button.png,20/Jun/20 4:18 PM;student2;after open the post again after dislike it or just refresh it.png;https://skillo.atlassian.net/secure/attachment/10014/after+open+the+post+again+after+dislike+it+or+just+refresh+it.png,{},,SK01EX-52,,,,,,0|i0055v:,,,4 - Normal,,,"1.Go to Url http://training.skillo-bg.com:4200
+2. login with this credentials
+Username: Testuser1@abv.bg 
+Password: Testuser1
+3. From search filed find user ""Padraig Appleton""
+4. Open Mr. Been post
+5. press the dislike button
+EX: successfully dislike that post
+actual result - it's show that you dislike it, but after leave that post this dislike disappear. This was in version 4200. In new version 4300 this button missing, so we cant test it !!!",,,,,,"23/Jun/20 6:03 PM;student2;In new version 4300 this button missing, so we cant test it \!\!\!",To Do
+There is no table with users_disliked_posts in data base SQL iskillo !,SK01EX-791,10929,Bug,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,21/Jun/20 12:44 AM,23/Jun/20 6:38 PM,01/Oct/20 11:43 PM,,2020.3.1.4200,2020.3.2.4300,,Database,Posts,0,Team2,,There is no table with users_disliked_posts in data base iskillo !,mySql@161.35.202.130:3306,student2,,,,,,,,,,SK01EX-217,SK01EX-761,,,,,,,,,,,,,,,,,,,,,,21/Jun/20 12:43 AM;student2;users_disliked_posts.png;https://skillo.atlassian.net/secure/attachment/10016/users_disliked_posts.png,,{},,,,,,,,0|i005cj:,,,2 - Critical,,,"1. Go to the database of iskillo
+2. in Tables, there is no users_disliked_posts table with connectivity to other tables  ",,,,,,,To Do
+305 - v. 4300,SK01EX-1580,11718,Test Case Execution,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,23/Jun/20 6:05 PM,23/Jun/20 6:05 PM,01/Oct/20 11:43 PM,,,,,,,0,4300,Team2,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00a7f:,,,,,,,,,,,,,To Do
+305,SK01EX-789,10927,Bug,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,21/Jun/20 12:29 AM,23/Jun/20 6:05 PM,01/Oct/20 11:43 PM,,2020.3.1.4200,2020.3.2.4300,,Posts,,0,Team2,,You can add a comment w/o text in it.,"http://training.skillo-bg.com:4200 ver. Version: 2020.3.1.4200
+operating system: Windows 10 Professional 
+Google Chrome - Version 83.0.4103.106 (Official Build) (64-bit)",student2,,,,,,,,,,SK01EX-157,SK01EX-286,,,,,,SK01EX-1580,,,,,,,,,,,,,,,,21/Jun/20 12:28 AM;student2;Bug comment without text.png;https://skillo.atlassian.net/secure/attachment/10015/Bug+comment+without+text.png,,{},,,,,,,,0|i005c3:,,,3 - Major,,,"1. Go to url http://training.skillo-bg.com:4200/
+2. Successfully login in with valid account 
+3. User is Redirected to Homepage 
+4. Click on menu Profile in the Header
+5. Click and open any posts.
+6. click on the comment field to be ready to write text
+7. pres spacer from the keyboard and press enter from the keyboard;
+
+Exp.R.: Not be able to add that comment in to the post
+
+Actual.R.: The comment is added successfully   
+",,,,,,,To Do
+Modify profile form functionality does not work,SK01EX-776,10914,Bug,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,20/Jun/20 7:00 PM,22/Jun/20 9:40 PM,01/Oct/20 11:43 PM,,2020.3.1.4200,2020.3.2.4300,,Profile,,0,Team2,,,Chrome,student2,,,,,,,,,,,,,,,,,SK01EX-1461,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i00597:,,,4 - Normal,,,"1. Log in in the platform
+2. Go to your profile
+3. Click the Modify your profile button
+4. Fill all the fields with different username, email, password than the ones used during the registration.
+5. Click the Save button
+
+Expected result: The profile information must be changed and saved.
+Actual result: The fields are filled with correct information but the Save button is not active, and the changes cannot be saved",,,,,,,To Do
+REQ-3: Upload picture field and the caption field are required. ,SK01EX-718,10856,Bug,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,High,,student2,student2,student2,20/Jun/20 2:35 PM,22/Jun/20 8:49 PM,01/Oct/20 11:43 PM,,2020.3.1.4200,2020.3.2.4300,,New post,Posts,0,Team2,,You can successfully Upload only picture with drag and drop without writhing anything in to the caption field,"Version of the iskillo: 2020.3.1.4200
+browser Google Chrome Version 83.0.4103.106 (Official Build) (64-bit)
+Windows 10 Professional   ",student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20/Jun/20 2:29 PM;student2;Bug 1 You can successfully Upload only picture with drag and drop without writhing anything in to the caption field.png;https://skillo.atlassian.net/secure/attachment/10012/Bug+1+You+can+successfully+Upload+only+picture+with+drag+and+drop+without+writhing+anything+in+to+the+caption+field.png,,{},,,,,,,,0|i004wb:,,,4 - Normal,,,"1. Go to url: http://training.skillo-bg.com:4200
+2. Successfully login in with valid account
+Username: Testuser1@abv.bg 
+Password: Testuser1
+ExR: User is Redirected to Homepage 
+3. Click on New Post 
+ExR: Pop up form for new post is open with option to comment and upload pictures. 
+5. Drag and drop picture less then 10 MB from your PC, switch to Public mode and push the button Submit
+Exp,R: Cannot submit the post, because you don''t fill anything it to the caption field
+Actual result: Successfully submit new post    ",,,,,,,To Do
+Password unable to be changed,SK01EX-1287,11425,Bug,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,22/Jun/20 3:46 PM,22/Jun/20 3:46 PM,01/Oct/20 11:43 PM,,2020.3.1.4200,,2020.3.1.4200,Password policy,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i008ej:,,,2 - Critical,,,"1. Login in the iSkillo
+2. Go to Profile page
+3. Click on modify profile icon
+4.Enter the username 
+5.Enter new password and confirm
+
+Expected result: The password should be changed
+Actual Result: The password its not changed",,,,,,,To Do
+Password unable to be changed,SK01EX-1285,11423,Test Case Execution,BLOCKED,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,22/Jun/20 3:43 PM,22/Jun/20 3:43 PM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i008e3:,,,,,,,,,,,,,To Do
+306,SK01EX-1164,11302,Test Case Execution,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,22/Jun/20 1:35 AM,22/Jun/20 1:35 AM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SK01EX-306,,,,,{},,,,,,,,0|i007nf:,,,,,,,,,,,,,To Do
+Doesnt appear error message when you unfollow an user,SK01EX-1132,11270,Bug,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,21/Jun/20 11:52 PM,21/Jun/20 11:53 PM,01/Oct/20 11:43 PM,,2020.3.1.4200,,,Follow,,0,,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i007gb:,,,3 - Major,,,"1. Login
+2.Search for user Shaila Clark
+3. Click follow
+
+Expected Result: Confirnation message appear
+Actual Result: Notting appear",,,,,,,To Do
+129,SK01EX-1126,11264,Test Case Execution,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,21/Jun/20 11:45 PM,21/Jun/20 11:45 PM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i007ez:,,,,,,,,,,,,,To Do
+First time login doesnt appear all the users in the platform,SK01EX-1123,11261,Bug,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,21/Jun/20 11:43 PM,21/Jun/20 11:44 PM,01/Oct/20 11:43 PM,,2020.3.1.4200,,,Posts,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21/Jun/20 11:43 PM;student2;1.jpg;https://skillo.atlassian.net/secure/attachment/10026/1.jpg,21/Jun/20 11:43 PM;student2;2.jpg;https://skillo.atlassian.net/secure/attachment/10025/2.jpg,{},,,,,,,,0|i007eb:,,,2 - Critical,,,"1. Register  in the platform
+2.Go to Homepage
+
+Expected result:
+Shoud appear all the users in the list.
+
+Actual result: 
+
+Appear only two",,,,,,,To Do
+139,SK01EX-1116,11254,Test Case Execution,SKIPPED,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,21/Jun/20 11:32 PM,21/Jun/20 11:32 PM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i007cr:,,,,,,,,,,,,,To Do
+160,SK01EX-1101,11239,Test Case Execution,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,21/Jun/20 11:19 PM,21/Jun/20 11:19 PM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i0079f:,,,,,,,,,,,,,To Do
+172,SK01EX-807,10945,Test Case Execution,BLOCKED,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,21/Jun/20 9:55 AM,21/Jun/20 9:56 AM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i005g3:,,,,,,,,,,,,,To Do
+194,SK01EX-806,10944,Test Case Execution,SKIPPED,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,21/Jun/20 9:48 AM,21/Jun/20 9:50 AM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,SK01EX-271,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i005fv:,,,,,,,,,,,,,To Do
+241,SK01EX-779,10917,Test Case Execution,SKIPPED,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,20/Jun/20 7:11 PM,20/Jun/20 7:17 PM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i0059v:,,,,,,,,,,,,,To Do
+240,SK01EX-780,10918,Test Case Execution,SKIPPED,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,20/Jun/20 7:15 PM,20/Jun/20 7:16 PM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i005a3:,,,,,,,,,,,,,To Do
+270,SK01EX-777,10915,Test Case Execution,SKIPPED,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,20/Jun/20 7:04 PM,20/Jun/20 7:04 PM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i0059f:,,,,,,,,,,,,,To Do
+187,SK01EX-769,10907,Test Case Execution,SKIPPED,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,20/Jun/20 5:11 PM,20/Jun/20 5:12 PM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i0057n:,,,,,,,,,,,,,To Do
+213,SK01EX-768,10906,Test Case Execution,SKIPPED,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,20/Jun/20 5:06 PM,20/Jun/20 5:07 PM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,SK01EX-214,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i0057f:,,,,,,,,,,,,,To Do
+264,SK01EX-719,10857,Test Case Execution,BLOCKED,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,20/Jun/20 2:37 PM,20/Jun/20 2:38 PM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i004wj:,,,,,,,,,,,,,To Do
+282,SK01EX-648,10786,Test Case Execution,SKIPPED,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,20/Jun/20 10:27 AM,20/Jun/20 10:28 AM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i004gr:,,,,,,,,,,,,20/Jun/20 10:28 AM;student2;Липсва в тест кейса парола за влизане към username-a,To Do
+252,SK01EX-430,10568,Test Case Execution,SKIPPED,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,15/Jun/20 9:21 PM,15/Jun/20 10:24 PM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i0034b:,,,,,,,,,,,,,To Do
+131,SK01EX-456,10594,Test Case Execution,SKIPPED,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,15/Jun/20 9:38 PM,15/Jun/20 9:38 PM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i003a3:,,,,,,,,,,,,,To Do
+Public info field missed in the registration form,SK01EX-453,10591,Bug,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,15/Jun/20 9:34 PM,15/Jun/20 9:35 PM,01/Oct/20 11:43 PM,,2020.3.1.4200,,,Registration,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i0039f:,,,3 - Major,,,"Steps to reproduce: 
+1.Open http://training.skillo-bg.com:4200/posts/all
+2. Click on Login
+3.Click on Registration 
+
+Expected result: Should appear fields: username, email, password, confirm password, public info. 
+
+Actual result: 
+Public info field doesnt appear",,,,,,,To Do
+138,SK01EX-450,10588,Test Case Execution,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,15/Jun/20 9:32 PM,15/Jun/20 9:32 PM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i0038r:,,,,,,,,,,,,,To Do
+The user can Likes and dislikes at the same time,SK01EX-445,10583,Bug,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,15/Jun/20 9:28 PM,15/Jun/20 9:28 PM,01/Oct/20 11:43 PM,,2020.3.1.4200,,,Posts,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i0037n:,,,3 - Major,,,"Steps to reproduce:
+1.Open http://training.skillo-bg.com:4200/posts/all
+2.Click on Likes and Dislikes button
+
+Expected result : should not be possible to click on the Likes and Dislikes button.
+
+Actual result: The system allow to select the buttons.",,,,,,,To Do
+"Verify that you can't make registration without to be agreed with GDPR conditions,cookies and password policy.",SK01EX-376,10514,Test Case Execution,SKIPPED,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,15/Jun/20 8:16 PM,15/Jun/20 8:17 PM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,SK01EX-253,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i002sb:,,,,,,,,,,,,,To Do
+Missing public info field in the registration form,SK01EX-377,10515,Bug,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Highest,,student2,student2,student2,15/Jun/20 8:16 PM,15/Jun/20 8:16 PM,01/Oct/20 11:43 PM,,2020.3.1.4200,,,Registration,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i002sj:,,,3 - Major,,,"Steps to reproduce: 
+1.Open http://training.skillo-bg.com:4200/posts/all
+2. Login
+3. Register
+Expected result: 
+Should appear fields: username, email, password, confirm password, public info
+Actual result: Appear only: username, email, password, confirm password",,,,,,,To Do
+"Make a registration without to be agreed with GDPR conditions,cookies and password policy.",SK01EX-371,10509,Test Case Execution,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,15/Jun/20 8:13 PM,15/Jun/20 8:14 PM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i002r7:,,,,,,,,,,,,,To Do
+Picture field in profile homepage,SK01EX-366,10504,Test Case Execution,To Do,SK01EX,sk01Extended,software,hjusein.tjurkmen,,,Medium,,student2,student2,student2,15/Jun/20 8:05 PM,15/Jun/20 8:05 PM,01/Oct/20 11:43 PM,,,,,,,0,Team2,,,,student2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,0|i002q3:,,,,,,,,,,,,,To Do
